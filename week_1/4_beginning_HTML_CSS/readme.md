@@ -33,9 +33,9 @@ From this point forward, all work will happen within the `unit1_projects` folder
 What other resources can you find? Share them in the resources spreadsheet in your google+ community (located in the links on the right)
 
 #### b. Experiment
-Create a new html page in your repository called `dbc1.html`
+Create a new html page in your repository called `eda1.html`
 
-Add the following to `dbc1.html` (Use this to introduce yourself!)
+Add the following to `eda1.html` (Use this to introduce yourself!)
 
 * Doctype, head, title, and body
 * Add one heading of each level (h1-h6) 
@@ -62,9 +62,9 @@ Add the following to `dbc1.html` (Use this to introduce yourself!)
 
 
 #### b. Experiment
-Create a new css file in your repository called `dbc1.css` and save it to the `stylesheets/` directory.
+Create a new css file in your repository called `eda1.css` and save it to the `stylesheets/` directory.
 
-* Link the `dbc1.css` file to your html file using the "external" method
+* Link the `eda1.css` file to your html file using the "external" method
 * Add colors, background colors or fonts of different parts of the page
 * Use ids and classes to change specific elements
 

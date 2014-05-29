@@ -35,7 +35,7 @@ Now let's put that knowledge to work!  We will be using [Sublime Text](http://ww
 
 * **Open a new file in Sublime**
 * Save the file as `index.html` in the **same directory as your copy of [USERNAME].github.io**<br /><br />![Sublime save](../imgs/sublime-save.jpg)
-* Add the following **HTML code** to your file:<br />`<html><body>Hello DBC!</body></html>`
+* Add the following **HTML code** to your file:<br />`<html><body>Hello EDA!</body></html>`
 * **Save the file**
 
 ## Release 2: Save your page to GitHub

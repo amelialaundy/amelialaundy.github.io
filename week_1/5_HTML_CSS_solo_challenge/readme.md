@@ -1,6 +1,6 @@
 # U1.W1: More HTML & CSS
 
-**THIS IS YOUR SOLO CHALLENGE FOR WEEK 1.** Please reference the [Phase 0 Handbook](https://github.com/Devbootcamp/phase_0_handbook/) for more details as to what this entails.
+**THIS IS YOUR SOLO CHALLENGE FOR WEEK 1.** Please reference the [Phase 0 Handbook](https://github.com/kereru-2014/phase_0_handbook/) for more details as to what this entails.
 
 ## Learning Competencies
 - Position HTML elements using CSS padding, borders, and
@@ -24,9 +24,9 @@ Think about something you want to teach people about. You will be building a web
 * [An Advanced Guide to HTML and CSS](http://learn.shayhowe.com/) 
 
 #### b. Experiment
-Create a new html page in your repository called `dbc2.html`
+Create a new html page in your repository called `eda2.html`
 
-Add at least the following to `dbc2.html`
+Add at least the following to `eda2.html`
 
 * Header, content area, sidebar, and a footer using divs 
 * Spans
@@ -45,11 +45,11 @@ Add at least the following to `dbc2.html`
 
 
 #### b. Experiment
-Create a new css file in your repository called `dbc2.css` and save it to the `stylesheets/` directory.
+Create a new css file in your repository called `eda2.css` and save it to the `stylesheets/` directory.
 
-Link the `dbc2.css` file to your `dbc2.html` file
+Link the `eda2.css` file to your `eda2.html` file
 
-Add the following to `dbc2.css`:
+Add the following to `eda2.css`:
 
 * Format your header, content, sidebar, and footer
 * Add padding, borders, and margins
@@ -78,7 +78,7 @@ to the CSS for links?
 * [CSS3 Pseudo selectors](http://coding.smashingmagazine.com/2011/03/30/how-to-use-css3-pseudo-classes/)
 
 ##### b. Experiment
-Add an unordered list (`ul`) to your `dbc2.html` file and add at least 3
+Add an unordered list (`ul`) to your `eda2.html` file and add at least 3
 elements to the list (`li`).  Add different styles to the first and last elements
 in the list only.
 

@@ -58,7 +58,7 @@ Before you can complete your reflection, you'll need to click the "Fork" button 
 
 ![Repo to Fork](../imgs/repo-to-fork.jpg)
 
-This will make a copy of the unit 1 curriculum repository into your personal GitHub account. This will be where you add reflections and later solutions. After you click fork, you should be taken from the Devbootcamp.com/phase_0_unit_1 repo to [USERNAME]/phase_0_unit_1
+This will make a copy of the unit 1 curriculum repository into your personal GitHub account. This will be where you add reflections and later solutions. After you click fork, you should be taken from the kereru-2014/phase_0_unit_1 repo to [USERNAME]/phase_0_unit_1
 
 
 ![Forked Repo](../imgs/forked-repo.jpg)
