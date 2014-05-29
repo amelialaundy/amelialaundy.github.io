@@ -3,8 +3,6 @@
 Welcome to Phase 0! Below you will find links to the curriculum for each week. Each week will be released on Monday and will be due on the following Sunday at 11:59pm.
 
 ### [Week 1: HTML/CSS](week_1)
-### [Week 2: More HTML/CSS](week_2)
-### [Week 3: JavaScript](week_3)
 
 ## Unit Requirements
 - [Peer-Pair program](https://github.com/kereru-2014/phase_0_handbook/blob/master/peer-pairing_sessions.md) at least 4 times this unit. Read about [pairing](https://github.com/kereru-2014/phase_0_handbook/blob/master/pairing_in_phase_0.md). 
