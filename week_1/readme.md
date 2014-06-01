@@ -1,6 +1,6 @@
 # Week 1: Introduction to HTML and CSS
 
-Welcome to Phase 0! We hope you are excited to further your knowledge and begin integrating into the developer and DBC community. Please make sure you've read through the [Phase 0 Handbook](https://github.com/kereru-2014/phase_0_handbook) **before** getting started with the weekly challenges. 
+Welcome to Phase 0! We hope you are excited to further your knowledge and begin integrating into the developer and EDA community. Please make sure you've read through the [Phase 0 Handbook](https://github.com/kereru-2014/phase_0_handbook) **before** getting started with the weekly challenges. 
 
 Once you feel comfortable with the expecations for Phase 0, you can get started with the week's challenges. You should go through each directory (folder) listed below and complete the challenges and exercises in each.  
 
@@ -20,12 +20,12 @@ If you would like to open tabs in a new window, please either right click or hol
 ## Remember your Expectations for the Unit!
 - Give feedback for each person you paired with. *You need to submit at least 5 pieces of feedback in this unit*
 - Rate at least 7 pieces of [Meta Feedback](https://socrates.devbootcamp.com/feedback) on Socrates. *You need to rate 20 pieces of feedback per unit*
-- Make sure you've signed up for GPS 1.1 and 1.2 (These must be done in a session with guide. They may not be done any other way, so make sure you sign up early!)
+- Make sure you've signed up for GPS 1.1 and 1.2 (Email invites will go out during the week; These must be done in a session with guide. They may not be done any other way, so make sure you sign up early!)
 
 ## Submitting your work
 You need to submit your work through by Sunday at 11:59pm. 
 
-Towards the end of each week, you will receive a link with a form to fill-in. If you haven't completed all the assignment by the end of the week please email your Phase 0 Facilitator to let them know.
+Towards the end of each week, you will receive a link with a form to fill-in to submit links to your Github repository and files. If you haven't completed all the assignments by the end of the week please email your Phase 0 Facilitator to let them know.
 
 Expect to submit your links for each of the following:
 
