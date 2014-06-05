@@ -1,0 +1,33 @@
+p1 {
+	font-size: 18;
+	color:#FF00FF;
+}
+
+p2 {
+	font-size: 22;
+	color: 0000FF;
+}
+
+h1 {
+	background-color: #CC0099;
+}
+
+h2 {
+	background-color: #CC3399;
+}
+
+h3 {
+	background-color: #CC6699;
+}
+
+h4 {
+	background-color: #CC9999;
+}
+
+h5 {
+	background-color: #CCCC99;
+}
+
+h6 {
+	background-color: #CCFF99
+}
