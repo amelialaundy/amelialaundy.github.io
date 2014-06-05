@@ -10,24 +10,45 @@ p2 {
 
 h1 {
 	background-color: #CC0099;
+	text-align: center;
 }
 
 h2 {
 	background-color: #CC3399;
+	text-align: right;
 }
 
 h3 {
 	background-color: #CC6699;
+	text-align: center;
 }
 
 h4 {
 	background-color: #CC9999;
+	text-align: left;
 }
 
 h5 {
 	background-color: #CCCC99;
+	text-align: center;
 }
 
 h6 {
 	background-color: #CCFF99
+	text-align: center;
+}
+
+
+.fonttype {
+	font-family: Verdana;
+	font-size: 14;
+	color: yellow;
+
+}
+
+body {
+	margin-top: 200px;
+	margin-bottom: 100px;
+	margin-right: 200px;
+	margin-left: 200px;
 }
