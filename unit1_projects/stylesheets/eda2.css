@@ -1,29 +1,70 @@
 .centred_page {
-	margin: 50px 150px 50px 150px;
+	margin: 5% 25% 5% 25%;
+	width: 500px;
+
+}
+body {
+	position: center;
 	font-family: "Courier New", Times;
-	
 }
-
 header {
+	font-style: center;
+}
+
+#header {
+	font-size: 26px; 
+	text-align: center;
+}
+
+#section_with_float{
+	text-align: left;
+	width: 500px;
+	margin: 5% 2% 5% 25%;
+	float: left;
+}
+img {
+	border-radius: 10px;
+}
+
+
+#first_header{
+	font-size: 20px;
+}
+
+
+.sidebar {
+	background-color: #CCCCCC;
+	float: right;
+	width: 250px;
+	height: 400px;
+	margin-top: 100px;
+	border-radius: 10px;
+	padding-right: 15px;
+	display: inline-block;
+}
+
+
+
+#footer_link {
+	float:left;
+	background-color: #CCCCCC;
+	display: block;
+	border-radius: 10px;
+	width: 500px;
+	padding-left: 10px;
+	margin: 5% 25% 5% 25%;
 
 }
 
-section {
+a:hover {
+	color: #3366FF;
+}
+
+#image_absolute {
+	z-index: 1;
 
 }
 
-p {
-
-}
-
-article {
-
-}
-
-aside {
-
-}
-
-footer {
-
+#caption_absolute {
+	z-index: 2;
 }
