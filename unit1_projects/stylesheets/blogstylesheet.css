@@ -1,0 +1,66 @@
+body {
+	font-family: "Courier New", Times;
+}
+
+
+header {
+	background-color: #66C2FF;
+	width:900px;
+	padding: 5px;
+	border: 3px solid gray;
+	margin: 5% 15% 5% 15%;
+	border-radius: 10px;
+	text-align: center;
+	position: center;
+	font-size: 30px;
+}
+
+aside {
+	float:right;
+	margin-right: 60px;
+}
+
+section {
+	width:800px;
+	margin-left: 60px;
+	margin-right: 10px;
+	font-size: 14px;
+	background-color: #D1D1E0;
+	border-radius: 5px;
+	padding:5px 5px 5px 5px;
+}
+
+a:hover {
+	font-size: 18px;
+	color: #338585;
+}
+
+.topic_header {
+	text-decoration: underline;
+
+}
+
+.blog_images {
+	width:800px;
+	border-radius: 5px;
+
+}
+
+
+#footer {
+	width: 30%;
+	margin: 4px;
+	display: inline-block;
+}
+
+footer {
+	background-color: #66C2FF;
+	width:700px;
+	padding: 5px;
+	border: 3px solid gray;
+	margin: 5% 15% 5% 15%;
+	border-radius: 10px;
+	text-align: center;
+	position: center;
+	font-size: 12px;
+}
