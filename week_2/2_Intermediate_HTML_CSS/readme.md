@@ -51,6 +51,6 @@ Fonts](http://www.vanseodesign.com/web-design/icon-fonts/)
 
 ##### b. Experiment
 Head to [FontAwesome](http://fontawesome.io/) and look around the
-documentation.  Then add the font awesome css to your `dbc2.html` file
+documentation.  Then add the font awesome css to your `eda2.html` file
 and play with using the icons!
 

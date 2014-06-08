@@ -13,7 +13,7 @@
 #### Summary
   Welcome to your first Guided Pairing Session (GPS!)
   We are excited to have you in Phase 0 and to work with
-  you to get you prepared for an exciting time at DBC. 
+  you to get you prepared for an exciting time at EDA. 
 
   This GPS is designed to help you examine pair programming and the roles of driver and 
   navigator. 
@@ -42,7 +42,7 @@ Discuss how you want the page to look. Draw a wireframe or use a wireframing too
 Include: a title and your names on your site. Style it based on your wireframe. 
 
 ## Release 2: Discuss Pair Programming
-Together, discuss and describe why you think pair-programming is important to DBC.
+Together, discuss and describe why you think pair-programming is important to EDA.
 Code up what you've discussed according to the wireframe you made. Also discuss what pairing means and define driver and navigator. You will want to compare these on the website.
 
 ## Release 3: Dress it up! 

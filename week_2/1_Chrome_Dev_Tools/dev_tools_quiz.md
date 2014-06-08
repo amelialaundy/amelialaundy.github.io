@@ -24,4 +24,4 @@
   * What is the largest image on the website? 
   * Explain how you would find out this information, and list the URL of offending image here and how big it is.
 
-* Test the www.ticketswizard.com website with google's [PageSpeed Insights](http://www.ticketswizard.com/).  (You can also download the chrome plugin).  What is the easiest thing to change to optimize the website?  How many kilobytes of data can be eliminated?
+* Test the www.ticketswizard.com website with google's [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/).  (You can also download the chrome plugin).  What is the easiest thing to change to optimize the website?  How many kilobytes of data can be eliminated?

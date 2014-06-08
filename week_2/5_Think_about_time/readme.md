@@ -20,7 +20,7 @@ Research Time Management, Productivity, and Mindfulness using a selection of the
 - [How Mindfulness can improve productivity, focus, and work life balance](http://www.productivityninja.co.uk/getting-things-done-and-the-mindful-productivity-ninja/)
 - [Habits & Growth Mindset](http://blog.bufferapp.com/the-habits-of-successful-people-they-have-a-growth-mindset)
 
-- [Intro to Learn Ruby The Hard Way](http://ruby.learncodethehardway.org/book/intro.html)
+- [Intro to Learn Ruby The Hard Way](http://ruby.learncodethehardway.org/book/intro.html) (although it's a Ruby book this chapter is language-independent)
 - [Pomodoro Technique - focus on one thing for 25 minutes then take a 5 minute break](http://pomodorotechnique.com/)
 
 - [Make it big by starting small](http://blog.bufferapp.com/make-it-big-by-starting-small)
