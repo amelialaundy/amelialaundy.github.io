@@ -205,3 +205,15 @@ h4 {
   display: table;
   clear: both;
 }
+
+
+/*media queries*/
+@media screen and (max width: 480px) {
+  famous div.woman {
+    font-size: 24px;
+  }
+
+  #header {
+    height:auto;
+  }
+}
