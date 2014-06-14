@@ -8,7 +8,17 @@ header {
 
 }
 
-.week_1, .week_2, .week3, {
+.week_1 {
+	float:left;
+	width: 25%;
+}
+
+.week_2 {
+	float:left;
+	width: 25%;
+}
+
+.week_3 {
 	float:left;
 	width: 25%;
 }
