@@ -7,3 +7,8 @@ header {
 	text-align: center;
 
 }
+
+.week_1, .week_2, .week3, {
+	float:left;
+	width: 25%;
+}
