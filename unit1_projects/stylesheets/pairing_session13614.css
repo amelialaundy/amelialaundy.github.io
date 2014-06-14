@@ -1,0 +1,79 @@
+       body {
+            font-family: 'Shadows Into Light', cursive;
+            background-color: #ADD6FF;
+            
+            }
+
+            header {
+            text-align: center;
+            text-decoration: underline;
+            margin: 0;
+            padding: 0;
+            
+            border-radius: 5px;
+            padding-left: 5%;
+            padding-right: 5%;
+            }
+
+            .header_image {
+                   
+            }
+
+
+             .marginleft-right {
+            padding-left: 5%;
+            padding-right: 5%;
+            }
+
+            #video_description {
+            float: left;
+            width: 38%;
+            text-align: center;
+            margin-left: 5%;
+            margin-right: 5%;
+            padding-top: 2%;
+            }
+            
+            .first_section {
+            float: left;
+            
+            width: 38%;
+            display: inline-block;
+            margin-left: 5%;
+            margin-right: 5%;
+            }
+            
+            #first_paragraph {
+            clear: both;
+            padding-top: 2%;
+
+            }
+
+            #Driver_navigator {
+                float: left;
+                width: 38%;
+            }
+
+            #reflection {
+                padding-top: 10%;
+                text-align: center;
+            }
+
+            footer {
+            text-align: center;
+            padding-top: 20%;
+            padding-bottom: 5%;
+            }
+
+            .footer_links {
+                float: left;
+                margin: 7%;
+                max-width: 6.25em;
+                max-height: 6.25em;
+            }
+
+            #swan_image {
+            border-radius:50% 50% 50% 50%;
+
+            }
+            
