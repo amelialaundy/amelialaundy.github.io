@@ -1,6 +1,13 @@
 body {
 	font-family: 'Shadows Into Light', cursive;
 	background-image: url("http://upload.wikimedia.org/wikipedia/commons/e/eb/Map_of_New_Zealand_%28blank%29.svg");
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: center;
+
+	max-width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 header {
@@ -8,17 +15,39 @@ header {
 
 }
 
+.intro_para {
+	text-align: center;
+	font-size: 1.5em;
+
+}
+
+h2 {
+	text-align: center;
+}
+
 .week_1 {
 	float:left;
-	width: 25%;
+	width: 10%;
+	margin: 2% 8% 8% 2%;
 }
+
+.section_2 {
+	clear:both;
+}
+
 
 .week_2 {
 	float:left;
-	width: 25%;
+	width: 23%;
+	margin: 2% 8% 8% 2%;
+}
+
+.section_3 {
+	clear:both;
 }
 
 .week_3 {
 	float:left;
-	width: 25%;
+	width: 23%;
+	margin: 2% 8% 8% 2%;
 }
