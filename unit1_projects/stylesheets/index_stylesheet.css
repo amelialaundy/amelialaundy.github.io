@@ -1,9 +1,7 @@
 body {
 	font-family: 'Shadows Into Light', cursive;
 	background-image: url("http://upload.wikimedia.org/wikipedia/commons/e/eb/Map_of_New_Zealand_%28blank%29.svg");
-	background-size: 80%;
-	background-repeat: no-repeat;
-	background-position: center;
+	
 
 	max-width: 80%;
 	margin-left: 10%;
@@ -13,6 +11,16 @@ body {
 header {
 	text-align: center;
 
+}
+
+#square_image {
+	border-radius: 10px;
+}
+
+#circle_image {
+	width: 75px;
+	height: 75px;
+	border-radius: 37.5px;
 }
 
 .intro_para {
