@@ -12,10 +12,14 @@ header {
 	text-align: center;
 	background-color: #000000;
 	color: #3399FF;
+	position: absolute;
+	top:0;
+	left:0;
+	right:0;
 }
 
 h1 {
-
+	text-align: left;
 }
 
 #square_image {
