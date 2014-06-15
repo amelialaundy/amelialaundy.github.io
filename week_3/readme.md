@@ -1,15 +1,14 @@
 # Introduction to JavaScript
 
-JavaScript is known as the "language of the web." It is a powerful object-oriented language (Ruby is as well). It is light-weight and can communicate with the browser. This week, we will introduce you to basic JavaScript syntax. The goal is not to teach you JavaScript, rather, we want you to feel comfortable with simple variables and functions. 
+JavaScript is known as the "language of the web." It is a powerful object-oriented language (Ruby and C# are as well). It is light-weight and can communicate with the browser. This week, we will introduce you to basic JavaScript syntax. The goal is not to teach you JavaScript, rather, we want you to feel comfortable with simple variables and functions. 
 
 You will not begin using JavaScript until Phase 2 in Dev Academy, but don't worry if you feel like you will forget everything. You will have the chance to review in the last two weeks of Phase 0 and the weekend before you begin Phase 2. Moreover, professional programmers look up information and syntax all the time. They don't have everything memorized either, so think of this as an introduction. The more you use JavaScript the more you will remember. For our purposes here, we want you to learn basics so that you can easily re-learn them later. 
 
-**You have an aesynchronous group challenge this week. Take a look at it early so you don't get blind-sided.**
+**You have an asynchronous group challenge this week. Take a look at it early so you don't get blind-sided.**
 
 ## Before you begin:
 - [Install Node.js](reading_material/install_node.md)
 - Read about [JavaScript 'Object' Objects](http://www.sitepoint.com/back-to-basics-javascript-object-syntax/) Understanding this well will be very beneficial.
-- You may choose to read through [JavaScript Reading Material](reading_material) before starting the challenges.
 
 ## Challenges
 1. ["Git" Started](1_git_started)

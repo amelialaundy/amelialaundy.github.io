@@ -33,6 +33,7 @@ in the console when they pass--`false`, otherwise.
 Turn your pseudocode into code by translating each step into code until the test passes.
 
 You'll want to follow the outline below:
+
 1. Define a variable adam and use object literal notation to assign this variable 
    the value of a JavaScript Object object with no properties.
 

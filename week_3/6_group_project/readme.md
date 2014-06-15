@@ -11,12 +11,13 @@
 - Collaborate with others to solve a problem
 
 ## Summary
-You will be required to work with others in your career as a developer, but you will not always know the large-goals or be responsible for implementing every part of the code. In this challenge, you are going to work with your accountability group to solve small challenges. Each person will have a specific role and you are not allowed to pass along any information outside of your particular responsibility. The roles are determined by the order in your accountability group spreadsheet. The first person will have the first role, second person the second, etc. 
+You will be required to work with others in your career as a developer, but you will not always know the large-goals or be responsible for implementing every part of the code. In this challenge, you are going to work with your assigned group to solve small challenges. Each person will have a specific role and you are not allowed to pass along any information outside of your particular responsibility. 
+You will be receiving a separate email outlining your group and each person's role.
 
 Most of this challenge will probably need to be done between Thursday and Sunday (so you feel comfortable with JavaScript before hand). Email your group to decide on a potential schedule. 
 
 ***Notes on this challenge**
-If you are the first person, reach out to your accountability group to let them know when they should expect your solution. If you can't complete it by the middle of the week (Wed), the second person should be defaulted to the first person role, unless you are all in agreement to do it on a delayed schedule (as long as it's all in by Sunday). If you have trouble getting into contact with people in your group, please contact the Phase 0 Facilitator to let her know. It's really important that you have the participation of each person. See the graphics below for help knowing who you need to send your files to depending on the size of your accountability group. **Do NOT look at the tests if you are not person 1!**
+If you are the first person (Story teller), reach out to your group to let them know when they should expect your solution. If you can't complete it by the middle of the week (Wed), the second person (Pseudo-coder) should be defaulted to the first person role, unless you are all in agreement to do it on a delayed schedule (as long as it's all in by Sunday). If you have trouble getting into contact with people in your group, please contact the Phase 0 Facilitator to let her know. It's really important that you have the participation of each person. See the graphics below for help knowing who you need to send your files to depending on the size of your group. **Do NOT look at the tests if you are not person 1!**
 
 ## Release 0: Role: Story Teller
 ### Translate tests into user stories
@@ -49,8 +50,6 @@ You will receive a file with pseudocode. Translate this pseudocode into code. Yo
 When you finish your coding, make sure the code runs without any syntax errors. If the code is missing a step from the pseudocode, message the person ahead of you to tell them. They need to give you an updated file. 
 
 When you are finished, send your solution to the next person in your group (again based on the graphics below). 
-
-** Person 4 will also do this in a five and six person group.**
 
 ## Release 3: Role: Re-factor
 ### [Refactor](https://github.com/kereru-2014/phase_0_handbook/blob/master/coding_references/refactoring.md) and translate

@@ -10,7 +10,7 @@
 
 ## Summary
 Now that you have had a bit of fun with JavaScript in the [JavaScript Short Courses](../2_code_combat) 
-challenge, you will want to learn a bit more about how JavaScript works. Remember what you learnt on the [Code Academy JS Track](http://www.codecademy.com/tracks/javascript), it would be wise to review sections there as you go along with this challenge if you get stuck.
+challenge, you will want to solidify that knowledge by practicing. Remember what you learnt on the [Code Academy JS Track](http://www.codecademy.com/tracks/javascript), it would be wise to review sections there as you go along with this challenge if you get stuck.
 
 You can open a new sublime file and run it in your terminal with node.js. 
 This will help to solidify your knowledge. By the way, this would be a cool thing to pair on. 
