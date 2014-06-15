@@ -18,7 +18,7 @@ Most of this challenge will probably need to be done between Thursday and Sunday
 ***Notes on this challenge**
 If you are the first person, reach out to your accountability group to let them know when they should expect your solution. If you can't complete it by the middle of the week (Wed), the second person should be defaulted to the first person role, unless you are all in agreement to do it on a delayed schedule (as long as it's all in by Sunday). If you have trouble getting into contact with people in your group, please contact the Phase 0 Facilitator to let her know. It's really important that you have the participation of each person. See the graphics below for help knowing who you need to send your files to depending on the size of your accountability group. **Do NOT look at the tests if you are not person 1!**
 
-## Release 0: Person 1 
+## Release 0: Role: Story Teller
 ### Translate tests into user stories
 
 Look at the `tests.js` file in this directory. 
@@ -33,15 +33,15 @@ Because you aren't working with users, you can omit the "As a user" part of the 
 
 **Email your `gc1_user_stories.js` URL (from your forked phase_0_unit_1 repo) to the next person in your group.**
 
-## Release 1: Person 2
-### Translate user stories into [pseudocode](https://github.com/Devbootcamp/phase_0_handbook/blob/master/coding_references/pseudocode.md) 
+## Release 1: Role: Pseudo-coder
+### Translate user stories into [pseudocode](https://github.com/kereru-2014/phase_0_handbook/blob/master/coding_references/pseudocode.md) 
 **Rename your [my_solution.js](./my_solution.js) file to `gc1_pseudocode.js`**
 
 Based on the user stories you receive from the first person, write pseudocode that can be easily implemented by the next person in your group.  Your psuedocode should be steps that specify at least 1 line of code.
 
 **Email the `gc1_pseudocode.js` URL (from your forked phase_0_unit_1 repo) (without the user stories) to the next person/people in your group.** You may not deviate from the user stories in your pseudocode.
 
-## Release 2: Person 3 
+## Release 2: Role: Coder 
 ### Translate Pseudocode into Code
 **Rename your [my_solution.js](./my_solution.js) file to  `gc1_initial_solution.js`**
 
@@ -52,23 +52,21 @@ When you are finished, send your solution to the next person in your group (agai
 
 ** Person 4 will also do this in a five and six person group.**
 
-## Release 3: Person 4 
-### [Refactor](https://github.com/Devbootcamp/phase_0_handbook/blob/master/coding_references/refactoring.md) and translate
+## Release 3: Role: Re-factor
+### [Refactor](https://github.com/kereru-2014/phase_0_handbook/blob/master/coding_references/refactoring.md) and translate
 **Rename your [my_solution.js](./my_solution.js) file to `gc1_refactored.js`**
 
 When you receive the `gc1_initial_solution.js` links, refactor it/them to make the code more clear. Then translate each into user stories. You will send your refactored code and your user stories to the first person in the group.
 
-**Person 5 and 6 do this in a five or six person group**
-
-## Release 4: Person 1 
+## Release 4: Role: Story-teller 
 ### Put it all together
 
-When the first person receives the refactored code from the last person, she/he needs to run the code with the tests. Which tests pass? Which tests fail? Send a summary with the and the final code you received to the rest of your group. 
+When the first person receives the refactored code from the last person, she/he needs to run the code with the tests. Which tests pass? Which tests fail? Send a summary with the results and the final code you received to the rest of your group. 
 
 For everyone: When you receive the summary email, send your repo link to the other students in your accountability group. Look at the two people who followed you (go to the top if you're at the bottom) and comment on each. 
 
-## Release 5: [Reflect](https://github.com/Devbootcamp/phase_0_handbook/blob/master/coding_references/reflection_guidelines.md)
-In the reflection section of your formerly named 'my_solution.js` file, reflect on your learning using the [reflection guidelines](https://github.com/Devbootcamp/phase_0_handbook/blob/master/coding_references/reflection_guidelines.md). Also answer the following:
+## Release 5: [Reflect](https://github.com/kereru-2014/phase_0_handbook/blob/master/coding_references/reflection_guidelines.md)
+In the reflection section of your formerly named 'my_solution.js` file, reflect on your learning using the [reflection guidelines](https://github.com/kereru-2014/phase_0_handbook/blob/master/coding_references/reflection_guidelines.md). Also answer the following:
 - What was this experience like? 
 - Was your group successful in passing the tests? 
 - What did you learn about writing user stories, pseudocoding, writing code, refactoring, etc.?
@@ -76,7 +74,6 @@ In the reflection section of your formerly named 'my_solution.js` file, reflect 
 
 ![4_person.jpg](/week_3/imgs/4_person.jpg)<br><br><br>
 ![5_person.jpg](/week_3/imgs/5_person.jpg)<br><br><br>
-<!-- ![6_person.jpg](/week_3/imgs/6_person.jpg)<br><br><br> -->
 
 ## Resources
 - JavaScript: [Object Syntax](http://www.sitepoint.com/back-to-basics-javascript-object-syntax/)

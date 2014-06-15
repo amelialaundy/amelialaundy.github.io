@@ -1,41 +1,27 @@
 [Week 3 Home](../)
 
-# U1.W3: Code Combat's Beginner Campaign
+# U1.W3: Short JavaScript Courses
 
 
 ## Learning Competencies
+- Familiarize yourself with JavaScript syntax
 - Manipulate an object using JavaScript
 - Explain what `()` does in JavaScript
 - Use error messages correct syntax mistakes
 
+## Resources
 
-## Release 0: Beginner Campaign
-Visit [Code Combat](http://codecombat.com/play) and complete each of the missions in the beginner campaign using the steps below. These directions might seem tedious for something so simple, but it's important to get in the habit of going through these steps every time you work through a challenge.  
+For this challenge there are two main resources that we'll use to learn the basics of JavaScript.
+We'd encourage you to work through Code Academy's JavaScript Track at a minimum, and if you find you have spare time then you can proceed to Code Combat to complete the Beginner Campaign.
 
-## Release 1: [Pseudocode](https://github.com/Devbootcamp/phase_0_handbook/blob/master/coding_references/pseudocode.md)
-Write the title of each mission (as a comment) in your [my_solution.js](./my_solution.js) file. 
- 
-Write simple pseudocode for each challenge. For example, write something like:
+## Relase 0: Code Academy's JavaScript Track
+Visit [Code Academy](http://www.codecademy.com/tracks/javascript) and complete all the challanges in the JavaScript track, which should take an estimated 10 hours of time.
 
-```javascript
-// move right x2
-// move up 1x
-// ATTACK!
-```  
+## Release 1: Code Combat's Beginner Campaign (Optional)
+Visit [Code Combat](http://codecombat.com/play) and complete each of the missions in the beginner campaign.
 
-## Release 2: Write your [Initial Solution](https://github.com/Devbootcamp/phase_0_handbook/blob/master/coding_references/initial_solution.md)
-Translate your pseudocode into code and see if it achieves your goals. If it doesn't quite work, modify it. Once you achieve each of the goals in each part, paste your successful code into your file. 
-
-Repeat releases 1 and 2 for each mission.
-
-## Release 3: Answer the following questions
-When you are finished with all of the campaigns, answer the following questions. You may want to look at some resources on JavaScript before answering.
-  - What is `this` referring to? Think programming-wise rather than in the terms of the game. 
-  - What does the `()` do in JavaScript?
-  - What is the point of the semicolons?
-
-## Release 4: [Reflect](https://github.com/Devbootcamp/phase_0_handbook/blob/master/coding_references/reflection_guidelines.md)
-In the reflection section of your 'my_solution.js` file, reflect on your learning using the [reflection guidelines](https://github.com/Devbootcamp/phase_0_handbook/blob/master/coding_references/reflection_guidelines.md). ***NOTE: Reflections are mandatory!***
+## Release 2: Reflect
+In the reflection section of your 'my_solution.js` file, reflect on your learning using the [reflection guidelines](https://github.com/kereru-2014/phase_0_handbook/blob/master/coding_references/reflection_guidelines.md). ***NOTE: Reflections are mandatory!***
 
 
 

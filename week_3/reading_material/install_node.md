@@ -13,7 +13,7 @@ If Node.js installed correctly, you should see which version was installed on yo
 
 ### Read-Eval-Print-Loop (REPL)
 
-With Node.js installed, you have access to a [REPL similar to IRB](http://nodejs.org/api/repl.html) (Interactive Ruby Shell).  Open Terminal and execute ...
+With Node.js installed, you have access to a [REPL](http://nodejs.org/api/repl.html) (Read Evaluate Print Loop). This will allow you to execute code and immediately see the results printed to screen. Open Terminal and execute ...
 
 ```
 $ node
@@ -33,13 +33,7 @@ Control+D will exit.
 
 ### Execute JavaScript Files
 
-You can also now use Node.js to execute a JavaScript file (*.js).  Just as with Ruby where, in the Terminal, you could execute ...
-
-```
-$ ruby file.rb
-```
-
-and have Ruby code execute, you can execute
+You can also now use Node.js to execute a JavaScript file (*.js).  You can execute
 
 ```
 $ node file.js

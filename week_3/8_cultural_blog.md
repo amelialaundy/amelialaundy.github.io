@@ -14,7 +14,7 @@ In your blog-posts directory in your [USERNAME].github.io repo, copy your blog t
 
 Remember your [Gregorc Thinking Style](http://web.cortland.edu/andersmd/learning/gregorc.htm) from your pre-Phase 0 work? If you can't remember what you are, retake the [personal thinking style](http://www.thelearningweb.net/personalthink.html) quiz. 
 
-Research your thinking style and consider how you can use your understanding of your thinking style to your advantage at DBC to help you learn.
+Research your thinking style and consider how you can use your understanding of your thinking style to your advantage at EDA to help you learn.
 
 Consider your experience in Phase 0 to this point. What has been the biggest struggle for you? Is it related to the way you think and learn or is it related to something else? If it's related to your learning style, start thinking of strategies to help you. Put some plans of action in place. 
 
