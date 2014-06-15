@@ -1,0 +1,30 @@
+#para_1 {
+	background-color: blue;
+	margin: 10px 10px 10px 10px;
+
+}
+
+#para_2 {
+	background-color: red;
+	margin: 10px 10px 10px 10px;
+}
+
+#para_3 {
+	background-color: orange;
+	margin: 10px 10px 10px 10px;
+ 	position:fixed;
+	top:0;
+	left:0;
+	width: 250px;
+	height:500px;
+}
+
+#block {
+	background-color: purple;
+	width:500px;
+	text-align: center;
+	margin-left: 200px;
+	margin-top: 0px;
+	
+
+}
