@@ -12,10 +12,19 @@ header {
 	text-align: left;
 	background-color: #000000;
 	color: #3399FF;
+	margin-left: 2%;
 	position: absolute;
 	top:0;
 	left:0;
 	right:0;
+}
+
+header.p {
+	font-size: 14px;
+}
+
+h1 {
+	text-decoration: underline;
 }
 
 #square_image {
