@@ -73,6 +73,17 @@ h2 {
 	text-align: center;
 }
 
+.section_4 {
+	clear:both;
+}
+
+.week_4 {
+	float:left;
+	width: 39%;
+	margin: 2% 8% 8% 2%;
+	text-align: center;
+}
+
 .footer_links {
 	float: left;
 	width: 30%;
