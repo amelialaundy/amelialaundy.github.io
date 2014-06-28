@@ -2,11 +2,11 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="/unit1_projects/stylesheets/reset.css">
 	<link rel="stylesheet" type-"text/css" href= "/unit1_projects/stylesheets/blogstylesheet.css">
-	<title></title>
+	<title>#group_by</title>
 </head>
 	<body>
 		<header>
-			<p>Enumerable#group_by</p>
+			<h1>Enumerable#group_by</h1>
 		</header>
 		<aside><!--sidebar-->
 			<p><a href="http://amelialaundy.github.io/">Home</a></p>
@@ -17,28 +17,29 @@
 			<li><a href="/unit1_projects/blog-posts/week2_technical">Week Two: Technical CSS</a></li>
 			<li><a href="/unit1_projects/blog-posts/week3_technical">Week Three: Technical Javascript</a></li>
 			<li><a href="/unit1_projects/blog-posts/week3_cultural">Week Three: Cultural Thinking Styles</a></li>
+			<li><a href="/unit1_projects/blog-posts/week4_cultural">Week Four: Cultural future of data storage</a></li>
 			<!--don't forget to add the new blog each week and remove its own link from its own page-->
 		</ul>
 		</aside>
 		<section>
-			<h1 class="topic_header"><!--header to explain this post--></h1>
+			<h2 class="topic_header"><!--header to explain this post--></h2>
 			<p></p>
 			<p></p>
 
 			<article>
-				<h1 class="topic_header">What does group_by do?</h1>
+				<h2 class="topic_header">What does group_by do?</h2>
 				<p>group_by groups the collection according to the result of the block, this enables you to create a hash from the block passed after you call group_by on an object. The hash keys are the result of the block and the values are arrays of elements in the collection that correspond to the key.</p>
 			</article>
 
 			<article>
-			<h1 class="topic_header">Examples</h1>
+			<h2 class="topic_header">Examples</h2>
 			<p>Bear with me! This might sound confusing, I find it hard to understand concepts from written wordy explanations, so here is an example:<br>If you have a list of cars you own and you want to group the list by the first letter of the car you would:</p>
 				<img class="blog_images" src="https://farm3.staticflickr.com/2923/14499866566_c89ffb95ae_o.jpg" alt="cars_group_by"><!--car.rb screenshot-->
 				<p>In the block {|x| x[0]} the x evaluates each element in the cars array and x[0] looks at the first letter of each string, thus resulting in x[0] (the first letter of each car) being the key in the hash and the values of each key are any car with that letter as it’s first.</p>
 			</article>
 
 			<article>
-				<h1 class="topic_header">A bit more hardcore</h1>
+				<h2 class="topic_header">A bit more hardcore</h2>
 				<p>Lets make this a little more complicated. In the following example imagine you are an estate agent and you have asked someone to do some data entry for your listings, you asked them to write an array for the the house sizes (3 bedroom, 4 bedroom etc), but on looking at their work you realise they can&#39t spell very well and have misspelt a lot of the elements of the array. This code will find any (known) spelling mistakes and any correct spellings and result in two hashes, one giving you the elements spelt correctly and another with the elements with misspellings. You can now take the misspelling hash and use this to correct the mistakes.</p>
 				<img class="blog_images" src="https://farm6.staticflickr.com/5547/14519582591_990e7fe71a_o.jpg" alt="spelling_mistake_group_by"><!--insert images-->
 				<p>Brief explanation:<br>In the case statement we are looking at each spelling(string in the array) and saying &quotwhen it contains Bedrom or bedromm or bedrom create a  key &quotTypo&quot that takes the corresponding strings as it’s values&quot, when it contains bedroom &quotcreate a key &quotCorrect&quot that takes these corresponding strings as it’s values&quot. The else &quotCorrect&quot in this example will return any string from the house_sizes array that contains anything else not mentioned, this is why 6+ Bedroom is a value in the &quotCorrect&quot key as the capital b wasn’t mentioned in the when <em>condition</em> &quotCorrect&quot only a lower case b was.

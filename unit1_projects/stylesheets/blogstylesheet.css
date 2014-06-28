@@ -1,14 +1,14 @@
 body {
-	font-family: "Courier New", Times;
+	font-family: 'Shadows Into Light', cursive;
 }
 
 
 header {
 	background-color: #66C2FF;
-	width:900px;
-	padding: 5px;
+	
+	padding: 2%;
 	border: 3px solid gray;
-	margin: 5% 15% 5% 15%;
+	margin: 5% 5% 5% 5%;
 	border-radius: 10px;
 	text-align: center;
 	position: center;
@@ -17,11 +17,11 @@ header {
 
 aside {
 	float:right;
-	position: fixed;
-	right: 50px;
-	top:250px;
-	bottom: 100px;
-	max-width:250px;
+	max-width:220px;
+	background-color: #B3C2E0;
+	border-radius: 5px;
+	margin-right: 5%;
+	padding: 1% 2% 2% 2%;
 	
 }
 
@@ -59,12 +59,15 @@ a:hover {
 
 footer {
 	background-color: #66C2FF;
-	width:700px;
+	
 	padding: 5px;
 	border: 3px solid gray;
-	margin: 5% 15% 5% 15%;
+	margin: 5% 5% 5% 5%;
 	border-radius: 10px;
 	text-align: center;
 	position: center;
 	font-size: 12px;
 }
+
+
+
