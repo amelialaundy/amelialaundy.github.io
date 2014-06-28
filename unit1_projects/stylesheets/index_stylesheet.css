@@ -10,7 +10,7 @@ body {
 
 header {
 	text-align: left;
-	padding-bottom: 50px;
+	
 	border-bottom: 10px double #333;
 	color: #3399FF;
 	background-color: #FFFFFF;
@@ -21,9 +21,12 @@ header {
 	
 }
 
-header.background-color {
-	opacity: 1;
+#header_links {
+	float:left;
+	width:24%;
 }
+
+
 
 h1 {
 	text-decoration: underline;
@@ -47,6 +50,8 @@ h1 {
 	font-size: 1em;
 	color: #6600CC;
 	border-bottom: 5px solid #333; 
+
+	background-color: rgba(192, 192, 192, 0.8);
 
 }
 
@@ -91,6 +96,7 @@ h2 {
 .section_4 {
 	clear:both;
 	padding-top: 25px;
+
 }
 
 .week_4 {
@@ -98,6 +104,7 @@ h2 {
 	width: 39%;
 	margin: 2% 8% 8% 2%;
 	text-align: center;
+	
 }
 
 .footer_links {
