@@ -43,6 +43,8 @@ ul#menu li a, ul#menu li ul.sub-menu li a {
     border-radius: 5px;
     padding-left: 50px;
     padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     margin-left: 100px;
     margin-right: 100px;
     display:inline-block;
