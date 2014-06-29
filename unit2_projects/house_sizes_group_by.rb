@@ -1,3 +1,4 @@
+
 house_sizes = ["3 bedrom", "4 Bedrom", "2 bedroom", "1 bedromm", "6+ Bedroom"]
 
 spelling_mistake = house_sizes.group_by do |spelling|
@@ -10,3 +11,5 @@ case spelling
 	"Correct"
 	end
 end
+
+ => {"Typo"=>["3 bedrom", "4 Bedrom", "1 bedromm"], "Correct"=>["2 bedroom", "6+ Bedroom"]}
