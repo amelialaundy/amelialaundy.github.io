@@ -2,7 +2,8 @@ body {
 	font-family: 'Shadows Into Light', cursive;
 	background-image: url("http://upload.wikimedia.org/wikipedia/commons/e/eb/Map_of_New_Zealand_%28blank%29.svg");
 	background-attachment: scroll;
-	background-position: center 200px,0,0,0;
+	background-position: center 200px;
+	background-size: cover;
 	background-repeat: no-repeat;
 	
 	
