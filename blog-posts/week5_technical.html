@@ -1,0 +1,93 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="/unit1_projects/stylesheets/reset.css">
+	<link rel="stylesheet" type-"text/css" href= "/unit1_projects/stylesheets/blogstylesheet.css">
+	<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+	<title>Ruby Classes</title>
+</head>
+	<body>
+		<header>
+			<h1>Ruby Classes</h1>
+		</header>
+		<aside><!--sidebar-->
+			<p><a href="http://amelialaundy.github.io/">Home</a></p>
+		<a href="/blog-posts/blogs_index">Recent Blog Posts</a>
+		<ul>
+			<li><a href="/blog-posts/week1_technical">First Blog:Technical</a></li>
+			<li><a href="/blog-posts/week1_cultural">Week One: Cultural</a></li>
+			<li><a href="/blog-posts/week2_technical">Week Two: Technical CSS</a></li>
+			<li><a href="/blog-posts/week3_technical">Week Three: Technical Javascript</a></li>
+			<li><a href="/blog-posts/week3_cultural">Week Three: Cultural Thinking Styles</a></li>
+			<li><a href="/blog-posts/week4_technical">Week Four: Technical #group_by</a></li>
+			<li><a href="/blog-posts/week4_cultural">Week Four: Cultural The Future of Data Storage</a></li>
+			<li><a href=<!-"/blog-posts/week5_technical">Week Five: Technical Ruby Classes</a></li>
+			<li><a href=<!-"/blog-posts/week5_cultural">Week Five: Cultural Pairing & Feedback</a></li>
+			<!--don't forget to add the new blog each week and remove its own link from its own page-->
+		</ul>
+		</aside>
+		<section>
+			<h2 class="topic_header">Explaining the use of Ruby classes</h2>
+			<p>This week we have been focusing on classes, class variables, instance variables and instance methods, I have written a short program to model an airline booking system (in a very simple way!).</p>
+			<br>
+			<img class="blog_images" src="https://farm4.staticflickr.com/3853/14397437408_cb9cfcd427.jpg" alt="screen shot program code">
+			<p></p>
+
+			<article>
+				<h2 class="topic_header">My example</h2>
+				<img class="blog_images" src="" alt=""><!--insert images-->
+				<p>The program above will take in the customers surname, number of people travelling and number of children, it is designed to return row numbers in the format of a number between 1 and 100 followed by a seat letter between A and G. Once the seats are assigned it will return the information needed by the customer, such as seat numbers and booking reference related to their surname.</p>
+				<p>Here are a few examples of the output when you declare different inputs:</p>
+				<img class="blog_images" src="https://farm3.staticflickr.com/2940/14397437328_275a6a1785.jpg" alt="screen shot code output">
+			</article>
+
+			<article>
+			<h2 class="topic_header">Explanation</h2>
+			<p>The most succinct explanation of classes and instance methods I found is &#39;Class methods are methods that are called on a class and instance methods are methods that are called on an instance of a class&#39; from<a href="http://www.railstips.org/blog/archives/2009/05/11/class-and-instance-methods-in-ruby/">www.railstips.org</a>. How I understand this is that you define a class and within that class there are class methods and instance methods.</p>
+			<p></p>
+			<p></p>
+			</article>
+
+			<article>
+				<h2 class="topic_header">Class</h2>
+				<img class="blog_images" src="" alt=""><!--insert images-->
+				<p>Class methods are used on something that doesn’t deal with an individual instance of a class, so it doesn’t need to be run on every instance of class we might come across.</p>
+				<p>To denote a class VARIABLE you would use @@ before the variable, &#39;@@variable_name = x&#39; this makes this variable accessible to all methods(class and instance) across the class but each will inherit the value such as &#39;@@variable_name = x&#39;. In my example above @@letters = [&#39;A&#39;, &#39;B&#39;, &#39;C&#39;, &#39;D&#39;, &#39;E&#39;, &#39;F&#39;, &#39;G&#39;, &#39;H&#39;] lets the other methods inherit this variable and its values. If it is changed later on, it will stay equal to that changed value for all methods in class.</p>
+			</article>
+			<article>
+				<h2 class="topic_header">Instance</h2>
+				<img class="blog_images" src="" alt=""><!--insert images-->
+				<p>Instance METHODS are used on something that DOES deal with an individual instance of a class. To denote a instance VARIABLE you would use @ before the variable, @variable_name = x, this means this variable is equal to x only for each instance of x and does not permanently change the value of x. An instance variable is also available across all methods in class.</p>
+				<p>In my example above @surname = surname means that @surname is only equal to surname for each time a surname is passed in, it does not keep the same value. If the input surname in the initialize method is changed, so will the value of @surname. The @ means that other methods can access the value of that variable. So in the Booking.getseats method it accesses @numberchildren which is an instance variable of the initialise method. The value of @numberchildren changes depending on the input value of numberchildren in initialize method.</p>
+			</article>
+			<article>
+				<h2 class="topic_header">Further Information</h2>
+				<img class="blog_images" src="" alt=""><!--insert images-->
+				<p>Initialize method is an instance method which defines how you create an object(of said class) in the first place. My initialize method defines a new booking as surname, number of adults travelling and number of children travelling. Initialize is always private so can not be accessed outside of the class but the other methods in class may refer to its variables or methods.</p>
+				<p>Defining a class does not run any code or use it in anyway, after you have defined the class it needs to be used by creating a new object of the class, in my example I have created three new objects booking_one, booking_two and booking_three which then uses the class Booking to create three new objects based on the information in initialize. </p>
+			</article>
+			<article>
+				<h2 class="topic_header">Conclusion</h2>
+				<img class="blog_images" src="" alt=""><!--insert images-->
+				<p>Classes are used when you have many different instances of an object, it could be lots of different people with values of hair colour, weight, height or a booking form like mine, a class groups together methods to be placed on a particular group of objects. Once you have written various different classes you can use then in other files by using &#39;require file_name&#39; at the top of the file you are wanting to use the classes in. They are useful to use as references later and can be linked together to evaluate lots of different information or lots of the same information differently.</p>
+				<p>Useful links:
+					<ul>
+						<li><a href="http://www.wellho.net/solutions/ruby-basic-class-definition-and-use-in-ruby.html">Well House Consultants</a></li>
+						<li><a href="http://www.railstips.org/blog/archives/2006/11/18/class-and-instance-variables-in-ruby/">Rails Tips</a></li>
+						<li><a href="http://rubymonk.com/learning/books/4-ruby-primer-ascent/chapters/45-more-classes/lessons/113-class-variables#solution4473">Ruby Monk</a></li>
+					</ul>
+				</p>
+			</article>
+		</section>
+		<footer>
+			<div id="footer">
+				<a href="">Back to top</a>
+			</div>
+			<div id="footer">
+				<p>Feel free to <a href="mailto:amelialaundy@gmail.com">email</a> me!</p>
+			</div>
+			<div id="footer">
+				<p>Created by Amelia Laundy</p>
+			</div>
+		</footer>
+	</body>
+</html>
