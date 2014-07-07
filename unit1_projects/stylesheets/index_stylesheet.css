@@ -173,6 +173,22 @@ h2 {
 
 }
 
+.section_6 {
+	clear:both;
+	padding-top: 25px;
+
+}
+
+
+
+.week_6 {
+	float:left;
+	width: 39%;
+	margin: 2% 8% 8% 2%;
+	text-align: center;
+
+}
+
 .footer_links {
 	float: left;
 	width: 30%;
