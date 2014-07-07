@@ -1,23 +1,102 @@
 body {
 	font-family: 'Shadows Into Light', cursive;
+	background-image: url("http://15pictures.com/wp-content/gallery/15-pictures-roller-coasters/roller-coaster-1.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: bottom;
 }
 
 
 header {
-	background-color: #66C2FF;
-	
-	padding: 2%;
-	border: 3px solid gray;
-	margin: 5% 5% 5% 5%;
-	border-radius: 10px;
+	text-align: left;
 	text-align: center;
-	position: center;
-	font-size: 30px;
+	border-bottom: 10px double #333;
+	color: #3399FF;
+	background-color: #FFFFFF;
+	margin-top: 0%;
+	width: 100%;
+	content:100%;
+	margin:0px;
+	
+}
+
+#header_links {
+	float:left;
+	width:24%;
+}
+
+ul#menu, ul#menu ul.sub-menu {
+    padding:0;
+    margin: 0;
+}
+ul#menu li, ul#menu ul.sub-menu li {
+    list-style-type: none;
+    display: inline-block;
+}
+/*Link Appearance*/
+ul#menu li a, ul#menu li ul.sub-menu li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    background: rgba(145, 145, 145, 1);
+    border-radius: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display:inline-block;
+}
+ul#menu li ul.sub-menu li a {
+	padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+ul#menu li ul.sub-menu li img {
+	border-radius: 5px;
+}
+.sub-menu {
+	
+}
+/*Make the parent of sub-menu relative*/
+ul#menu li {
+    position: relative;
+}
+/*sub menu*/
+ul#menu li ul.sub-menu {
+    display:none;
+    position: absolute;
+    top: 30px;
+    left: -500px;
+    width: 800px;
+}
+ul#menu li:hover ul.sub-menu {
+    display:block;
+}
+
+h1 {
+	text-decoration: underline;
+	font-size: 40px;
+	text-align: center;
+}
+
+
+.intro_para {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	text-align: center;
+	font-size: 1em;
+	color: #6600CC;
+	border-bottom: 5px solid #333; 
+	width: 100%;
+	background-color: rgba(192, 192, 192, 0.8);
+	margin-bottom: 5px;
+
 }
 
 aside {
 	float:right;
-	max-width:220px;
+	max-width:210px;
 	background-color: #B3C2E0;
 	border-radius: 5px;
 	margin-right: 5%;
@@ -26,15 +105,15 @@ aside {
 }
 
 h2 {
-	font-size: 20px;
+	font-size: 30px;
 }
 
-section {
+.sections {
 	width:800px;
 	margin-left: 60px;
 	margin-right: 10px;
-	font-size: 16px;
-	background-color: #D1D1E0;
+	font-size: 18px;
+	background-color: rgba(205,203,242,0.8);
 	border-radius: 5px;
 	padding:5px 5px 5px 5px;
 }
@@ -51,17 +130,28 @@ a:hover {
 .blog_images {
 	max-width:800px;
 	border-radius: 5px;
+	background-position: center;
+
 
 }
 
 
 #footer {
-	width: 30%;
-	margin: 4px;
-	display: inline-block;
+	text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    background: rgba(145, 145, 145, 1);
+    border-radius: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display:inline-block;
 }
 
-footer {
+
+
+/*footer {
 	background-color: #66C2FF;
 	
 	padding: 5px;
@@ -71,6 +161,18 @@ footer {
 	text-align: center;
 	position: center;
 	font-size: 12px;
+}*/
+
+footer {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	text-align: center;
+	font-size: 1em;
+	color: #6600CC;
+	border-top: 5px solid #333; 
+	width: 100%;
+	background-color: rgba(192, 192, 192, 0.8);
+	margin-top: 5px;
 }
 
 
