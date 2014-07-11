@@ -1,0 +1,116 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="/unit1_projects/stylesheets/reset.css">
+	<link rel="stylesheet" type-"text/css" href= "/unit1_projects/stylesheets/blogstylesheet.css">
+	<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+	<title>Blocks, procs & Lambdas</title>
+</head>
+	<body>
+		<header>
+			<img src="https://farm6.staticflickr.com/5512/14519947891_37ef370b6f_o.jpg" height="220" usemap="amelia_header">
+			
+		</header>
+
+		<div class="intro_para">
+		<ul id="menu">
+    		<li><a href="/blog-posts/blogs_index">Blogs</a>
+    		</li>
+    		<li><a href="#">About</a>
+				<ul class="sub-menu">
+            		<li> <a href="#"><img src="https://farm3.staticflickr.com/2907/14550824713_e6e23d8170_q.jpg"><br>Hey I'm Amelia, I have been living in Wellington for the past year and New Zealand for nearly three! This page links to all the work completed throughout EDA Phase Zero, I hope it reflects a bit about my personality through the design and of course, my love for New Zealand!</a>
+            		</li>
+            	</ul>
+    		</li>
+    		<li><a href="mailto:amelialaundy@gmail.com">Contact</a>
+    		</li>
+   		</ul>
+		
+		</div>
+
+		<aside><!--sidebar-->
+			<p><a href="http://amelialaundy.github.io/">Home</a></p>
+		<a href="/blog-posts/blogs_index">Recent Blog Posts</a>
+		<ul>
+			<li><a href="/blog-posts/week1_technical">First Blog:Technical</a></li>
+			<li><a href="/blog-posts/week1_cultural">Week One: Cultural</a></li>
+			<li><a href="/blog-posts/week2_technical">Week Two: Technical CSS</a></li>
+			<li><a href="/blog-posts/week3_technical">Week Three: Technical Javascript</a></li>
+			<li><a href="/blog-posts/week3_cultural">Week Three: Cultural Thinking Styles</a></li>
+			<li><a href="/blog-posts/week4_technical">Week Four: Technical #group_by</a></li>
+			<li><a href="/blog-posts/week4_cultural">Week Four: Cultural The Future of Data Storage</a></li>
+			<li><a href="/blog-posts/week5_cultural">Week Five: Cultural Pairing & Feedback</a></li>
+			<li><a href="/blog-posts/week5_technical">Week Five: Technical Ruby Classes</a></li>
+			<!--don't forget to add the new blog each week and remove its own link from its own page-->
+		</ul>
+		</aside>
+		<section class="sections">
+			<h1>The Three Musketeers</h1>
+			<br>
+			<h2 class="topic_header">Athos, Porthos and Aramis, or Blocks, Procs and Lambdas </h2>
+			<p>Blocks, procs and lambdas are all different but similar ways of passing code to a method, and then executing that code. Primarily this is what a block does and you write that block each time you want to call some specific code.</p>
+			<p>I will endeavour to explain these differences in the following blog post!</p>
+
+			<article>
+				<h2 class="topic_header">Blocks</h2>
+				<p>Blocks are defined by either having do *something* end or { |something| do code to something }. They are chunks of code that have no name and are written when they are called. Often they are used to iterate a variable by using a method such as #each or can be added to a method that is not a built in method by calling it using <strong>yield</strong>:</p>
+				<img class="blog_images" src="https://farm6.staticflickr.com/5527/14438368498_5b5d0bf734.jpg" alt="creating block one"><!--insert images-->
+				<img class="blog_images" src="https://farm4.staticflickr.com/3888/14624486812_376bf3f87e.jpg" alt="creating block two"><!--insert images-->
+				<p>Blocks are <strong>not</strong> objects and so can not be reused and applied over and over,  I think of them as pieces of code that can not be saved.</p>
+			</article>
+
+			<article>
+			<h2 class="topic_header">Procs</h2>
+			<p>This is where it gets interesting, Procs <em>are</em> blocks; well, procs <em>contain</em> saved blocks that can be reused, they are more permanent:</p>
+			<img class="blog_images" src="https://farm6.staticflickr.com/5564/14438376889_e9aaa2e6ce.jpg" alt="creating proc">
+			<p>Now you can use new_proc as an input to a function by writing (&new_proc) to call that block of code saved to new_proc. This is more helpful if the block of code is going to be repeated throughout the code; rather than rewriting it every time, you can just declare the proc at the start and pass the proc name to the chosen methods when needed. Yield can not be used inside a method on procs as the code wouldn’t know which proc to run, so #call is needed instead to invoke the correct proc by placing the proc name as so:</p>
+			<img class="blog_images" src="https://farm4.staticflickr.com/3899/14601973226_2bd0d8b912.jpg" alt="using and symbol with proc">
+			<p></p>
+			</article>
+
+			<article>
+				<h2 class="topic_header">Lambdas</h2>
+				<p>So if procs (are/)contain blocks, what are lambdas all about you ask?</p>
+				<p>Lambdas are pretty much blocks!</p>
+				<p>Ok so I’m not truing to confuse you so read on…They, procs and lambdas, are nearly identical, they both store a block of code to be used later and multiple times. To create a lambda the syntax looks like so:</p>
+				<img class="blog_images" src="https://farm4.staticflickr.com/3891/14644905743_5098ba1bbb.jpg" alt="create lambda">
+				<br>
+				<p>However there are two differences between procs and lambdas; Firstly lambdas care about the number of arguments received, when creating the lambda above notice how it is syntactically different to the proc creation, there is no .new after the word lambda, this allows a lambda to take parameters or arguments such as:</p>
+				<img class="blog_images" src="https://farm3.staticflickr.com/2936/14438579947_8528a253f8.jpg" alt="lambda arguments"><!--insert images-->
+				<br>
+				<p>In this example new_lambda accepts two arguments so cannot be called with less than two arguments or more than two arguments.</p>
+				<p>Secondly when lambdas are called within a method, they return their value to the method and then allow the method to continue, methods calling procs on the other hand will, when they meet a return statement in the proc, return the provided value from the proc and won’t continue through the rest of the method.</p>
+				<img class="blog_images" src="https://farm3.staticflickr.com/2915/14438376789_580e0bddc7.jpg" alt="returning lambda">
+				<br>
+				<img class="blog_images" src="https://farm4.staticflickr.com/3890/14438376799_cc6a858927.jpg" alt="returning procs">
+				<br>
+			</article>
+
+			<article>
+				<h2 class="topic_header">In Conclusion</h2>
+				<img class="blog_images" src="" alt=""><!--insert images-->
+				<p>
+					<ul>
+						<li>Procs and lambdas save block of code for reuse</li>
+						<li>Procs and lambdas can both be called using the .call method</li>
+						<li>Blocks can be called using yield</li>
+						<li>Lambdas and blocks have <em>diminutive</em> returns, a method will continue processing after after calling either of them</li>
+						<li>Procs have <em>strong</em> returns, a method calling a proc will stop processing once it hits the return statement in a proc</li>
+					</ul>
+				</p>
+				<p></p>
+				<p></p>
+			</article>
+		</section>
+		<footer>
+			<div id="footer">
+				<a href="">Back to top</a>
+			</div>
+			<div id="footer">
+				<p>Feel free to <a href="mailto:amelialaundy@gmail.com">email</a> me!</p>
+			</div>
+			<div id="footer">
+				<p>Created by Amelia Laundy</p>
+			</div>
+		</footer>
+	</body>
+</html>
