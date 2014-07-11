@@ -3,7 +3,7 @@
 	<link rel="stylesheet" type="text/css" href="/unit1_projects/stylesheets/reset.css">
 	<link rel="stylesheet" type-"text/css" href= "/unit1_projects/stylesheets/blogstylesheet.css">
 	<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
-	<title>Blocks, procs & Lambdas</title>
+	<title>Blocks, Procs & Lambdas</title>
 </head>
 	<body>
 		<header>
@@ -60,7 +60,7 @@
 
 			<article>
 			<h2 class="topic_header">Procs</h2>
-			<p>This is where it gets interesting, Procs <em>are</em> blocks; well, procs <em>contain</em> saved blocks that can be reused, they are more permanent:</p>
+			<p>This is where it gets interesting, procs <em>are</em> blocks; well, procs <em>contain</em> saved blocks that can be reused, they are more permanent:</p>
 			<img class="blog_images" src="https://farm6.staticflickr.com/5564/14438376889_e9aaa2e6ce.jpg" alt="creating proc">
 			<p>Now you can use new_proc as an input to a function by writing (&new_proc) to call that block of code saved to new_proc. This is more helpful if the block of code is going to be repeated throughout the code; rather than rewriting it every time, you can just declare the proc at the start and pass the proc name to the chosen methods when needed. Yield can not be used inside a method on procs as the code wouldn’t know which proc to run, so #call is needed instead to invoke the correct proc by placing the proc name as so:</p>
 			<img class="blog_images" src="https://farm4.staticflickr.com/3899/14601973226_2bd0d8b912.jpg" alt="using and symbol with proc">
