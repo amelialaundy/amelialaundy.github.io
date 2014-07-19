@@ -1,0 +1,118 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="/unit1_projects/stylesheets/reset.css">
+	<link rel="stylesheet" type-"text/css" href= "/unit1_projects/stylesheets/blogstylesheet.css">
+	<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+	<title>SQL vs NoSQL </title>
+</head>
+	<body>
+		<header>
+			<img src="https://farm6.staticflickr.com/5512/14519947891_37ef370b6f_o.jpg" height="220" usemap="amelia_header">
+			
+		</header>
+
+		<div class="intro_para">
+		<ul id="menu">
+    		<li><a href="/blog-posts/blogs_index">Blogs</a>
+    		</li>
+    		<li><a href="#">About</a>
+				<ul class="sub-menu">
+            		<li> <a href="#"><img src="https://farm3.staticflickr.com/2907/14550824713_e6e23d8170_q.jpg"><br>Hey I'm Amelia, I have been living in Wellington for the past year and New Zealand for nearly three! This page links to all the work completed throughout EDA Phase Zero, I hope it reflects a bit about my personality through the design and of course, my love for New Zealand!</a>
+            		</li>
+            	</ul>
+    		</li>
+    		<li><a href="mailto:amelialaundy@gmail.com">Contact</a>
+    		</li>
+   		</ul>
+		
+		</div>
+
+		<aside><!--sidebar-->
+			<p><a href="http://amelialaundy.github.io/">Home</a></p>
+		<a href="/blog-posts/blogs_index">Recent Blog Posts</a>
+		<ul>
+			<li><a href="/blog-posts/week1_technical">First Blog:Technical</a></li>
+			<li><a href="/blog-posts/week1_cultural">Week One: Cultural</a></li>
+			<li><a href="/blog-posts/week2_technical">Week Two: Technical CSS</a></li>
+			<li><a href="/blog-posts/week3_technical">Week Three: Technical Javascript</a></li>
+			<li><a href="/blog-posts/week3_cultural">Week Three: Cultural Thinking Styles</a></li>
+			<li><a href="/blog-posts/week4_technical">Week Four: Technical #group_by</a></li>
+			<li><a href="/blog-posts/week4_cultural">Week Four: Cultural The Future of Data Storage</a></li>
+			<li><a href="/blog-posts/week5_cultural">Week Five: Cultural Pairing & Feedback</a></li>
+			<li><a href="/blog-posts/week5_technical">Week Five: Technical Ruby Classes</a></li>
+			<!--don't forget to add the new blog each week and remove its own link from its own page-->
+		</ul>
+		</aside>
+		<section class="sections">
+			<h1>SQL vs NoSQL Databases</h1>
+			<br>
+			<h2 class="topic_header">What are SQL and NoSQL?SQL- Structured Query Language is used to access and manage date held in relational database management systems (RDBMS) it is a programming language written to specifically do just this. Relational databases store information in tables, with tables being joined to access related data between the two, and each field has to be predetermined along with its data type.</h2>
+			<p>NoSQL-Not Only Structured Query Language is used to access and manage data held in other means than tabular such as documents, key-value pairs, graph databases or wide-column stores. They are often used when there are high volumes of data to be stored and can use SQL query languages to access that data but don’t solely rely on it.</p>
+
+			<article>
+				<h2 class="topic_header">Pros & Cons of SQL & NoSQL</h2>
+				<p>
+					<ul>
+						<li>When creating a SQL database the various fields have to be defined beforehand, thus creating a schema that the database adheres to. So after some time when new columns need to be added a new schema has to be devised and then have all the data migrated to the new schema. The database HAS to be taken offline when the information about a new data item needs to be added as the whole database must be altered</li>
+						<li>NoSQL on the other hand can add information about new data items as you go without the need to take the database offline thus saving downtime and money. These are <em>dynamic</em> databases and can store dissimilar data together unlike SQL databases. Although in some instances it can be more difficult to add new fields to NoSQL databases, such as wide-column stores:<br>“Wide Column databases stores data tables as sections of columns of data rather than as rows of data.” Source: <a href="http://bi-bigdata.com/2013/01/13/what-is-wide-column-stores/">bi-bigdata.com</a></li>
+						<li>To <em>scale</em> a database is to increase the size or amount of work asked of a database; such as increasing the load required of it when resources are added. SQL databases are <em>vertically</em> scalable, meaning they are scaled by increasing the power of the hardware as the the demand increases. Other options such as spreading SQL databases over more than one server but this is time and resource consuming. NoSQL in contrast scales <em>horizontally</em> which means that to increase the power of the database you can add more servers to host the database, NoSQL automatically spreads data across the various servers and so doesn’t take any engineering time in adding more resources.</li>
+						<li>When using <em>transactional</em> based applications SQL databases are more stable and promise <em>atomicity</em>;<br> “Database transaction is collection of SQL queries which forms a logical one task. For transaction to be completed successfully all SQL queries has to run successfully. Database transaction executes either all or none, so for example if your database transaction contains 4 SQL queries and one of them fails then change made by other 3 queries will be rolled back.”<br> Source: <a href="http://javarevisited.blogspot.co.nz/2011/11/database-transaction-tutorial-example.html">javarevisited</a><br>They also keep the integrity of the data, atomicity is part of the transaction process where is any of the queries fail then they all fail and so do ‘rollback’ to before the queries were run. NoSQL can be used for transactional applications as they are less stable especially for more complex transactional applications due to the un-uniformed nature of them.</li>
+						<li>Both database types work off different but similar properties to guarantee that transactions are correctly and reliably processed; SQL works off ACID:
+							<ul>
+								<li><strong>Atomicity</strong>: all or nothing, all transaction parts must succeed in order for the whole transaction to succeed.</li>
+								<li><strong>Consistency</strong>: from one valid state to another, all data written to a database must be valid and ring true to the data types set in the schema of that database.</li>
+								<li><strong>Isolation</strong>: concurrent execution, when multiple transactions are targeting the same data, isolation ensures that the resulting database state is the same as if the transactions had been executes one after the other (serially) otherwise they will affect the data before the other transaction has accessed the original state of that data.</li>
+								<li><strong>Durability</strong>: staying committed, even if there is power loss or computer crash/errors the result of a transaction will remain so, they need to be stored permanently so that any changes to the database are met and saved rather than just assuming they are saved.</li>
+							</ul>NoSQL works off CAP:
+								<ul>
+									<li>Consistency: all requests see the same data, similar to Isolation where you want all transactions to see the same data before they are edited</li>
+									<li>Availability: each request must receive notification about the success of that request, the database is always available and responsive</li>
+									<li>Partition tolerance: the system or database still runs and operates as expected even if there has been failure in the system or power loss, if part of the system is unavailable, other parts are not affected</li>
+								</ul>
+							</li>
+						<li>SQL has been around for a long time, originally created at IBM to manage data stored in their database management system. This means that there have been plenty of people before who have had an overcome the same problems that many of us may face, there is a lot of support and help readily available for using SQL. NoSQL is new, less standardised and is vendor-specific-there is no hard and fast rule about accessing, managing and maintaining NoSQL and so you are very much at the mercy of the supplier of your specific database.</li>
+					</ul>
+				</p>
+				<p></p>
+			</article>
+
+			<article>
+			<h2 class="topic_header">In conclusion:</h2>
+			<img class="blog_images" src="http://www.nosql-vs-sql.com/history.jpg" alt="NoSQL vs SQL">
+			<p>After dipping my toe into the sea of SQL this week I am intrigued after researching NoSQL to dip my toe in that ocean too to figure out if one of them is warmer than the other…</p>
+			<p>As a beginner I can see how the structured ways of SQL may be easier to understand and get a grip on first although I am also starting to see the cons of predefining data types as this doesn’t easily allow for future problems to arise where new data items may be needed.</p>
+			<p>NoSQL sounds fascinating in that you can store <strong>a lot</strong> of data, even petabytes of data in a database spread across many servers, allowing huge amounts of unstructured data to be stored and accessed.</p>
+			<p>I also realise that this debate is very subjective, in particular <a href=“http://www.nosql-vs-sql.com/“>this</a> website where the author writes with such convicted opinions you read them as true, but read down through the comments and there seems to be quite a number of people disagreeing with the points he has made…This makes it kind of confusing for a newb like me to get a handle on the pros and cons but I do realise that creating my own opinion will be based on my experience of both SQL and NoSQL so I look forward to swimming in both seas!</p>
+			</article>
+
+			<article>
+				<h2 class="topic_header"><!--header for third section--></h2>
+				<img class="blog_images" src="" alt=""><!--insert images-->
+				<p></p>
+				<p></p>
+				<p></p>
+			</article>
+
+			<article>
+				<h2 class="topic_header"><!--header for third section--></h2>
+				<img class="blog_images" src="" alt=""><!--insert images-->
+				<p></p>
+				<p></p>
+				<p></p>
+			</article>
+		</section>
+		<footer>
+			<div id="footer">
+				<a href="">Back to top</a>
+			</div>
+			<div id="footer">
+				<p>Feel free to <a href="mailto:amelialaundy@gmail.com">email</a> me!</p>
+			</div>
+			<div id="footer">
+				<p>Created by Amelia Laundy</p>
+			</div>
+		</footer>
+	</body>
+</html> 
+
+
