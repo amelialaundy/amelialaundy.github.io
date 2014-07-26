@@ -1,48 +1,65 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="/unit1_projects/stylesheets/reset.css">
-	<link rel="stylesheet" type-"text/css" href= "/unit1_projects/stylesheets/blogstylesheet.css">
+	<link rel="stylesheet" type-"text/css" href= "/unit1_projects/stylesheets/index_stylesheet.css">
 	<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
-	<title>#group_by</title>
 </head>
 	<body>
 		<header>
-			<img src="https://farm6.staticflickr.com/5512/14519947891_37ef370b6f_o.jpg" height="220" usemap="amelia_header">
-			
-		</header>
-
-		<div class="intro_para">
 		<ul id="menu">
-    		<li><a href="/blog-posts/blogs_index">Blogs</a>
-    		</li>
-    		<li><a href="#">About</a>
+    	
+    		<li><a href="#"><img id="header_image" src="https://farm3.staticflickr.com/2907/14550824713_e6e23d8170_q.jpg" width ="70" height ="70"></a>
 				<ul class="sub-menu">
-            		<li> <a href="#"><img src="https://farm3.staticflickr.com/2907/14550824713_e6e23d8170_q.jpg"><br>Hey I'm Amelia, I have been living in Wellington for the past year and New Zealand for nearly three! This page links to all the work completed throughout EDA Phase Zero, I hope it reflects a bit about my personality through the design and of course, my love for New Zealand!</a>
+            		<li> <a href="#"><img src="https://farm3.staticflickr.com/2902/14695182082_87eb584788_q.jpg">
+            			<br>
+						<p>Former: waitress | barista | traveller | one-time-bee-keeper
+						<br>Currently: | EDA student studying to be a developer | 
+						<br>Future: | watch this space | </p>
+            			</a>
             		</li>
             	</ul>
     		</li>
-    		<li><a href="mailto:amelialaundy@gmail.com">Contact</a>
-    		</li>
+    		<!-- <img id="header_image" src="http://www.bjornolesen.com/userfiles/BLO_7212(1).jpg" width="100" height="100"> -->
    		</ul>
+   		
+		<h1>Amelia Laundy</h1>
+		<div id="twitter"><a  href="https://twitter.com/amelialaundy" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @amelialaundy</a>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></div>
+		<div id="twitter"><a href ="http://amelialaundy.github.io/"><button type="button">Home</button></a></div>
+	</header>
+
 		
-		</div>
-		<aside><!--sidebar-->
-			<p><a href="http://amelialaundy.github.io/">Home</a></p>
-		<a href="/blog-posts/blogs_index">Recent Blog Posts</a>
-		<ul>
-			<li><a href="/blog-posts/week1_technical">First Blog:Technical</a></li>
-			<li><a href="/blog-posts/week1_cultural">Week One: Cultural</a></li>
-			<li><a href="/blog-posts/week2_technical">Week Two: Technical CSS</a></li>
-			<li><a href="/blog-posts/week3_technical">Week Three: Technical Javascript</a></li>
-			<li><a href="/blog-posts/week3_cultural">Week Three: Cultural Thinking Styles</a></li>
-			<li><a href="/blog-posts/week4_cultural">Week Four: Cultural future of data storage</a></li>
-			<li><a href="/blog-posts/week5_cultural">Week Five: Cultural Pairing & Feedback</a></li>
-			<li><a href="/blog-posts/week5_technical">Week Five: Technical Ruby Classes</a></li>
-			<!--don't forget to add the new blog each week and remove its own link from its own page-->
-		</ul>
-		</aside>
+
+		<div id="main">
+
+	<section id="blogs"><h2>Blogs</h2></section>
+
+		<script>
+			function myFunction(arr) {
+    		var out = "";
+		    var i;
+		    for(i = 0; i<arr.length; i++) {
+		        if (arr[i].url == "title") {
+         		out += '<h2>' + arr[i].display + '</h2>';
+         		} if (arr[i].url == "week") {
+         		out += '<p id="week">' + arr[i].display + '</p>';
+    			}  if (arr[i].url == "explanation") {
+    			out += '<p>' + arr[i].display + '</p>';
+    			} if (arr[i].url !== "explanation" && arr[i].url !== "title" && arr[i].url !== "week") {
+       			out += '<li><a href="' + arr[i].url + '">' + 
+    			arr[i].display + '</a></li>';
+    			}
+		    }
+		    document.getElementById("blogs").innerHTML = out;
+			}
+		</script>
+
+		<script src="/other_indexes/myBlogs.js"></script>
+
+
+	<aside>
 		<section class="sections">
-			<h1>Enumerable#group_by</h1>
+			<h2>Enumerable#group_by</h2>
 			<br>
 			<h2 class="topic_header"><!--header to explain this post--></h2>
 			<p></p>
@@ -67,16 +84,21 @@
 				<p>Brief explanation:<br>In the case statement we are looking at each spelling(string in the array) and saying &quotwhen it contains Bedrom or bedromm or bedrom create a  key &quotTypo&quot that takes the corresponding strings as it’s values&quot, when it contains bedroom &quotcreate a key &quotCorrect&quot that takes these corresponding strings as it’s values&quot. The else &quotCorrect&quot in this example will return any string from the house_sizes array that contains anything else not mentioned, this is why 6+ Bedroom is a value in the &quotCorrect&quot key as the capital b wasn’t mentioned in the when <em>condition</em> &quotCorrect&quot only a lower case b was.
 </p>
 		</section>
-		<footer>
-			<div id="footer">
-				<a href="">Back to top</a>
-			</div>
-			<div id="footer">
-				<p>Feel free to <a href="mailto:amelialaundy@gmail.com">email</a> me!</p>
-			</div>
-			<div id="footer">
-				<p>Created by Amelia Laundy</p>
-			</div>
-		</footer>
+		
+
+	</aside>
+
+	<footer>
+		<p>Watch this site get bigger and better as my skills do!<br>Created by Amelia Laundy<br>
+			<div align='center'><img src='http://www.hit-counter-html-code.com/c.php?d=9&id=140477&s=55' border='0'></div>
+		</p><br>
+		<a class="footer_links" href="mailto:amelialaundy@gmail.com"><button type="button">Email</button></a>
+		
+		<a class="footer_links" href="http://devacademy.co.nz/"><button type="button">EDA</button></a>
+
+		<a class="footer_links" href ="https://twitter.com/amelialaundy"><button type="button">Twitter</button></a>
+
+	</footer>
+	</div>
 	</body>
 </html>
