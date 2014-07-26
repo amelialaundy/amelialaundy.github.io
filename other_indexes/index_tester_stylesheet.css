@@ -1,48 +1,109 @@
+html {
+	min-width: 100%;
+  	min-height: 100%;
+  	overflow: auto;
+  	/*border-bottom: 25px solid #FFF;*/
+  	/*background-image: url("https://farm6.staticflickr.com/5552/14508238748_f74b022ef5_o.png");*/
+  	background-image: url("https://farm4.staticflickr.com/3851/14691084286_631539c1b2_o.png");
+}
+
 body {
+	/*display: block;*/
 	font-family: 'Shadows Into Light', cursive;
-	background-image: url("https://farm6.staticflickr.com/5552/14508238748_f74b022ef5_o.png");
-	background-attachment: scroll;
-	background-position: center 200px;
-	
-	border: 25px solid #FFF;
+	/*background-image: url("https://farm6.staticflickr.com/5552/14508238748_f74b022ef5_o.png");*/
+	/*background-attachment: scroll;*/
+	/*background-position: center 200px;*/
+	/*min-width: 100%;
+  	min-height: 100%;*/
+  	overflow: scroll;
+	/*border: 25px solid #FFF;*/
+	/*border-radius: 10px;*/
 
 	
 	
 }
 
 header {
-	text-align: right;
+	/*border: 2px solid #B04166;*/
+	text-align: left;
 	/*border-bottom: 10px double #fff;*/
 	/*color: #3399FF;*/
-	color: #3399FF;
+	/*color: #3399FF;*/
+	color: #B04166;
 	background-color: #FFF;
 	/*background: rgba(145, 145, 145, 1);*/
 	/*background-color: rgba(192, 192, 192, 0.8);*/
-	
+	/*border: 2px solid #B04166;*/
 	
 	margin:0px;
-	padding:0% 2% 2% 2%;
+	padding:20px 2% 2% 2%;
+	display: block;
+	width: 96%;
+	/*min-width: 100%;*/
+	max-height: 180px;
+  	/*min-height: 100%;*/
+  	/*overflow: auto;*/
+	position: fixed;
+	top: 0;
+	/* left: 0;*/
+	z-index: 1000;
+	/*border-bottom: 10px solid #B04166;*/
 	
+}
+
+#week {
+	text-decoration: underline;
+	font-size: 20px;
+}
+
+h1 {
+	/*border: 2px solid #B04166;*/
+	float: left;
+	font-size: 65px;
+	text-align: left;
+	/*display: inline-block;*/
+	margin-top: 0;
+	position: fixed;
+	top: 0;
+	margin-left: 100px;
+	/*padding-left: 200px;*/
+}
+
+#twitter {
+	float: right;
+	/*border: 2px solid #B04166;*/
 }
 
 #header_image {
 	float: left;
-	border-radius: 10px;
-	margin: 2%;
-	display: inline;
+	
+	/*margin: 2%;*/
+	display: inline-block;
 	border-radius: 5px;
+	/*padding-right: 10px;*/
+	/*margin-right: 10px;*/
+	border: 2px solid #B04166;
 	
 }
 
+#main {
+	position: relative;
+	top: 90px;
+	bottom: 0px;
+	border: 50px solid #FFF;
+	margin: 0;
+
+}
+
 aside {
-	border: 2px solid #fff;
+	border: 2px solid #B04166;
 	border-radius: 5px;
 	float: right;
 	margin-right: 2%;
 	margin-top: 2%;
 	padding: 2%;
 	width: 52%;
-	
+	max-height: 400px;
 	background-color: rgba(245, 245, 245, 0.8);
 	font-size: 18px;
 }
@@ -57,7 +118,7 @@ ul#menu li, ul#menu ul.sub-menu li {
     float: left;
 }
 /*Link Appearance*/
-ul#menu li a, ul#menu li ul.sub-menu li a {
+ ul#menu li ul.sub-menu li a {
     text-decoration: none;
     font-size: 20px;
     color: #fff;
@@ -67,8 +128,8 @@ ul#menu li a, ul#menu li ul.sub-menu li a {
     display:inline-block;
 }
 ul#menu li ul.sub-menu li a {
-	padding-top: 1%;
-    padding-bottom: 1%;
+	padding: 1%;
+    /*padding-bottom: 1%;*/
 }
 
 ul#menu li ul.sub-menu li img {
@@ -85,7 +146,7 @@ ul#menu li {
 ul#menu li ul.sub-menu {
     display:none;
     position: absolute;
-    top: 150px;
+    top: 100px;
     left: 0px;
     width: 800px;
     text-align: center;
@@ -94,11 +155,7 @@ ul#menu li:hover ul.sub-menu {
     display:block;
 }
 
-h1 {
-	
-	font-size: 60px;
-	text-align: right;
-}
+
 
 #square_image {
 	border-radius: 10px;
@@ -128,24 +185,35 @@ h2 {
 	text-align: center;
 	text-decoration: underline;
 	font-size: 22px;
-	color: #3399FF;
+	/*color: #3399FF;*/
 
 }
 
-.blogs {
+.blog_title {
+	/*min-width: 100%;
+  	min-height: 100%;
+  	overflow: auto;*/
+}
+
+#blogs {
+	/*min-width: 50%;*/
+  	max-height: 400px;
+  	overflow: auto;
 	clear:both;
 	float:left;
 	width: 30%;
 	margin: 2% 2% 8% 2%;
 	text-align: left;
 	font-size: 18px;
-	border: 2px solid #fff;
+	border: 2px solid #B04166;
 	border-radius: 5px;
 	/*background-image: url("http://upload.wikimedia.org/wikipedia/commons/e/eb/Map_of_New_Zealand_%28blank%29.svg");
 	background-size: cover;
 	background-position: top;*/
-	background-color: rgba(192, 192, 192, 0.8);
+	background-color: rgba(245, 245, 245, 0.8);
+	/*background-color: rgba(192, 192, 192, 0.8);*/
 	padding: 2%;
+	height: 500px;
 }
 
 #about_imgs {
@@ -208,6 +276,7 @@ footer {
 	clear:both;
 	text-align: center;
 	margin-bottom: 5%;
+	/*border: 25px solid #FFF;*/
 }
 
 

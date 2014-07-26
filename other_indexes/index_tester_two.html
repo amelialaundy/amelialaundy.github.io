@@ -2,8 +2,8 @@
 
 <head>
 	<title>Amelia's Work!</title>
-	<link rel="stylesheet" type="text/css" href="/Users/Amelia/GitHub/amelialaundy.github.io/unit1_projects/stylesheets/reset.css">
-	<link rel="stylesheet" type ="text/css" href= "/Users/Amelia/GitHub/amelialaundy.github.io/other_indexes/index_tester_stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="/unit1_projects/stylesheets/reset.css">
+	<link rel="stylesheet" type ="text/css" href= "/other_indexes/index_tester_stylesheet.css">
 
 	<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
 </head>
@@ -47,85 +47,38 @@
 		
 	</section>-->
 	<div id="main">
-	<section id="blogs">
-		<h2 class = "blog_title">Blogs</h2>
-		<h2>Week Seven:14th July-20th July 2014</h2>
-			<br>
-			<br>
-			<a href="/blog-posts/week7_cultural">Cultural blog:</a>
-			<p>Exploring Your Values</p>
-			<a href="/blog-posts/week7-technical.html">Technical blog:</a><p>SQL vs NoSQL</p>
-			<br>
-			<br>
-		<h2>Week Six:7th July-13th July 2014</h2>
-			<br>
-			<br>
-			<a href="/blog-posts/week6_cultural"><p>Cultural blog:</a>
-			<p>Stereotype Threat</p>
-			<a href="/blog-posts/week6_technical.html">Technical blog:</a><p>Blocks, Procs & Lambdas</p>
-			<br>
-			<br>
-		<h2>Week Five:30th June-6th July 2014</h2>
-			<br>
-			<br>
-			<a href="/blog-posts/week5_cultural">Cultural blog:</a>
-			<p>My thoughts on pairing and feedback so far</p>
-			<a href="/blog-posts/week5_technical.html">Technical blog:</a><p>Ruby Classes</p>
-			<br>
-			<br>
-		<h2>Week Four:23rd June 2014-29th June 2014</h2>
-			<br>
-			<br>
-			<a href="/blog-posts/week4_cultural">Cultural blog: The Future of Data Storage</a>
-			<p>Where is all our data going to be stored in the future?</p>
-			<a href="/blog-posts/week4_technical.html">Technical blog:</a><p>Technical blog: Teach about Enumberable method #group_by</p>
-			<br>
-			<br>
-		<h2>Week Three:16th June 2014-22nd June 2014</h2>
-			<br>
-			<br>
-			<br>
-			<a href="/blog-posts/week3_cultural">Cultural blog:Thinking Styles</a>
-			<p>Looking at my Gregorc thinking style and growth vs. mindset</p>
-			<a href="/blog-posts/week3_technical">Technical blog: The Popularity of Javascript</a>
-			<p>Popularity of Javascript: The good the bad and the ugly</p>
-			<br>
-			<br>
-		<h2>Week Two: 9th June 2014-15th June 2014</h2>
-			<br>
-			<br>
-			<br>
-			<a href="/unit1_projects/my_wireframe">My Wireframe</a>
-			<p>Creating a wireframe for this index website</p>
-			<a href="/unit1_projects/gps1.1">Pairing session pt. 1</a>
-			<p>First pairing session, with Steve;This is the direct result we had after coding together</p>
-			<a href="/unit1_projects/pairing_session_steve">Pairing Session pt. 2</a>
-			<p>My version of the page based on our work together</p>
-			<a href="/blog-posts/week2_technical">Technical Blog</a>
-			<p>CSS Positioning</p>
-			<br>
-			<br>
-		<h2>Week One: 2nd June 2014-8th June 2014</h2>
-			<br>
-			<br>
-			<br>
-			<a href="/unit1_projects/eda1.html">EDA 1:first webpage</a>
-			<p>Designed to introduce yourself...I didnt't read the brief properly!</p>
-			<a href="/unit1_projects/eda2">EDA 2:second webpage</a>
-			<p>Teaching something:How to make haloumi cheese yum yum!</p>
-			<a href="/blog-posts/week1_technical">My first ever blog!</a>
-			<p>Technical blog:considering webpage design<p>
-			<a href="/blog-posts/week1_cultural">Getting into this blogging thing!</a>
-			<p>Cultural blog:first impressions of EDA</p>
-			<a href="/unit1_projects/wireframe_sites">Wireframing<a>
-			<p>First time giving wireframing a go!</p>
-	</section>
+
+	<section id="blogs"><h2>Blogs</h2></section>
+
+		<script>
+			function myFunction(arr) {
+    		var out = "";
+		    var i;
+		    for(i = 0; i<arr.length; i++) {
+		        if (arr[i].url == "title") {
+         		out += '<h2>' + arr[i].display + '</h2>';
+         		} if (arr[i].url == "week") {
+         		out += '<p id="week">' + arr[i].display + '</p>';
+    			}  if (arr[i].url == "explanation") {
+    			out += '<p>' + arr[i].display + '</p>';
+    			} if (arr[i].url !== "explanation" && arr[i].url !== "title" && arr[i].url !== "week") {
+       			out += '<li><a href="' + arr[i].url + '">' + 
+    			arr[i].display + '</a></li>';
+    			}
+		    }
+		    document.getElementById("blogs").innerHTML = out;
+			}
+		</script>
+
+		<script src="myBlogs.js"></script>
+
 
 	<aside>
 		<h2>About me</h2>
 		<p>Hey I'm Amelia, I have been living in Wellington for the past year and New Zealand for three, this page contains all of my blogs completed throughout EDA Phase Zero as part of the Kereru cohort. It is a work in progress, I hope it reflects a bit about my personality through the design but don't be suprised if one day it has a whole new (awesome!) look.</p>
 		<img id = "about_imgs" src="http://www.wellingtononaplate.com/site/uploads/2013/05/WellingtonSign02_WellingtonNZ_PHOTO_CaptureStudios.jpg-620x420.jpg" width = "250">
 		<img id="about_imgs" src="http://education.randmcnally.com/images/edpub/New_Zealand_Outline.png" width="200">
+
 	</aside>
 
 	<footer>
