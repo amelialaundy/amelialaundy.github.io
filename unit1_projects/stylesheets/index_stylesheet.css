@@ -109,6 +109,14 @@ aside {
 	overflow: auto;
 }
 
+.blog_images {
+	max-width:400px;
+	border-radius: 5px;
+	background-position: center;
+
+
+}
+
 
 ul#menu, ul#menu ul.sub-menu {
     padding-bottom:50px;
