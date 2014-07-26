@@ -10,199 +10,72 @@
 <body>
 
 	<header>
-		<img src="https://farm6.staticflickr.com/5512/14519947891_37ef370b6f_o.jpg" height="220" usemap="amelia_header">
-		<map name="amelia_header">
-			<area shape = "rect" coords ="300,0,500,100" alt="amelia twitter" href="https://twitter.com/amelialaundy">
-			<area shape = "rect" coords ="300,110,450,150" alt="eda" href="http://devacademy.co.nz/">
-		</map>
-	</header>
-
-	<section class="intro_para">
 		<ul id="menu">
-    		<li><a href="/blog-posts/blogs_index">Blogs</a>
-    		</li>
-    		<li><a href="#">About</a>
+    	
+    		<li><a href="#"><img id="header_image" src="https://farm3.staticflickr.com/2907/14550824713_e6e23d8170_q.jpg" width ="70" height ="70"></a>
 				<ul class="sub-menu">
-            		<li> <a href="#"><img src="https://farm3.staticflickr.com/2907/14550824713_e6e23d8170_q.jpg"><br>Hey I'm Amelia, I have been living in Wellington for the past year and New Zealand for nearly three! This page links to all the work completed throughout EDA Phase Zero, I hope it reflects a bit about my personality through the design and of course, my love for New Zealand!</a>
+            		<li> <a href="#"><img src="https://farm3.staticflickr.com/2902/14695182082_87eb584788_q.jpg">
+            			<br>
+						<p>Former: waitress | barista | traveller | one-time-bee-keeper
+						<br>Currently: | EDA student studying to be a developer | 
+						<br>Future: | watch this space | </p>
+            			</a>
             		</li>
             	</ul>
     		</li>
-    		<li><a href="mailto:amelialaundy@gmail.com">Contact</a>
-    		</li>
+    		<!-- <img id="header_image" src="http://www.bjornolesen.com/userfiles/BLO_7212(1).jpg" width="100" height="100"> -->
    		</ul>
-		
-	</section>
+   		
+		<h1>Amelia Laundy</h1>
+		<div id="twitter"><a  href="https://twitter.com/amelialaundy" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @amelialaundy</a>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></div>
+		<div id="twitter"><a href ="http://amelialaundy.github.io/"><button type="button">Home</button></a></div>
+	</header>
 
-	<section class="section_6">
-		<h2>Week Seven:14th July-20th July 2014</h2>
+	<div id="main">
 
-		<div class="week_6">
-			<a href="/blog-posts/week7_cultural"><img id="circle_image" src="https://farm9.staticflickr.com/8298/7761349168_c2e2e980fd.jpg" width="120" height="120"></a>
-			<br>
-			<a href="/blog-posts/week7_cultural"><p>Cultural blog:</a>
-			<p>Exploring Your Values</p>
-		</div>
+	<section id="blogs"><h2>Blogs</h2></section>
 
-		<div class="week_6">
-			<a href="/blog-posts/week7-technical.html"><img id="circle_image" src="https://farm4.staticflickr.com/3718/9963795373_8e4ca335b5.jpg" width="120" height="120"></a>
-			<br>
-			<a href="/blog-posts/week7-technical.html">Technical blog:</a><p>SQL vs NoSQL</p>
-			<p></p>
-		</div>
-	</section>
+		<script>
+			function myFunction(arr) {
+    		var out = "";
+		    var i;
+		    for(i = 0; i<arr.length; i++) {
+		        if (arr[i].url == "title") {
+         		out += '<h2>' + arr[i].display + '</h2>';
+         		} if (arr[i].url == "week") {
+         		out += '<p id="week">' + arr[i].display + '</p>';
+    			}  if (arr[i].url == "explanation") {
+    			out += '<p>' + arr[i].display + '</p>';
+    			} if (arr[i].url !== "explanation" && arr[i].url !== "title" && arr[i].url !== "week") {
+       			out += '<li><a href="' + arr[i].url + '">' + 
+    			arr[i].display + '</a></li>';
+    			}
+		    }
+		    document.getElementById("blogs").innerHTML = out;
+			}
+		</script>
 
-	<section class="section_6">
-		<h2>Week Six:7th July-13th July 2014</h2>
-
-		<div class="week_6">
-			<a href="/blog-posts/week6_cultural"><img id="circle_image" src="https://farm9.staticflickr.com/8298/7761349168_c2e2e980fd.jpg" width="120" height="120"></a>
-			<br>
-			<a href="/blog-posts/week6_cultural"><p>Cultural blog:</a>
-			<p>Stereotype Threat</p>
-		</div>
-
-		<div class="week_6">
-			<a href="/blog-posts/week6_technical.html"><img id="circle_image" src="https://farm4.staticflickr.com/3718/9963795373_8e4ca335b5.jpg" width="120" height="120"></a>
-			<br>
-			<a href="/blog-posts/week6_technical.html">Technical blog:</a><p>Blocks, Procs & Lambdas</p>
-			<p></p>
-		</div>
-	</section>
-
-	<section class="section_5">
-		<h2>Week Five:30th June-6th July 2014</h2>
-
-		<div class="week_5">
-			<a href="/blog-posts/week5_cultural"><img id="square_image" src="http://www.visitzealandia.com/wp-content/uploads/2012/03/kereru-sattwood.jpg" width="120" height="120"></a>
-			<br>
-			<a href="/blog-posts/week5_cultural">Cultural blog:</a>
-			<p>My thoughts on pairing and feedback so far</p>
-		</div>
-
-		<div class="week_5">
-			<a href="/blog-posts/week5_technical.html"><img id="square_image" src="http://upload.wikimedia.org/wikipedia/commons/3/3c/Kereru001.jpg" width="120" height="120"></a>
-			<br>
-			<a href="/blog-posts/week5_technical.html">Technical blog:</a><p>Ruby Classes</p>
-			<p></p>
-		</div>
-	</section>
-
-	<section class="section_4">
-		<h2>Week Four:23rd June 2014-29th June 2014</h2>
-
-		<div class="week_4">
-			<a href="/blog-posts/week4_cultural"><img id="circle_image" src="https://farm9.staticflickr.com/8298/7761349168_c2e2e980fd.jpg" width="120" height="120"></a>
-			<br>
-			<a href="/blog-posts/week4_cultural">Cultural blog: The Future of Data Storage</a>
-			<p>Where is all our data going to be stored in the future?</p>
-		</div>
-
-		<div class="week_4">
-			<a href="/blog-posts/week4_technical.html"><img id="circle_image" src="https://farm4.staticflickr.com/3718/9963795373_8e4ca335b5.jpg" width="120" height="120"></a>
-			<br>
-			<a href="/blog-posts/week4_technical.html">Technical blog:</a><p>Technical blog: Teach about Enumberable method #group_by</p>
-			<p></p>
-		</div>
-	</section>
-
-	<section class="section_3">
-		<h2>Week Three:16th June 2014-22nd June 2014</h2>
-
-		<div class="week_3">
-			<a href="/blog-posts/week3_cultural"><img id="square_image" src="http://www.visitzealandia.com/wp-content/uploads/2012/03/kereru-broom-sattwood.jpg" width="120" height="120"></a>
-			<br>
-			<a href="/blog-posts/week3_cultural">Cultural blog:Thinking Styles</a>
-			<p>Looking at my Gregorc thinking style and growth vs. mindset</p>
-		</div>
-
-		<div class="week_3">
-			<a href="/blog-posts/week3_technical"><img id="square_image" src="http://www.visitzealandia.com/wp-content/uploads/2012/03/kereru-broom-closeup-sattwood-592.jpg" width="120" height="120"></a>
-			<br>
-			<a href="/blog-posts/week3_technical">Technical blog: The Popularity of Javascript</a>
-			<p>Popularity of Javascript: The good the bad and the ugly</p>
-		</div>
-	</section>
-
-	<section class="section_2">
-		<h2>Week Two: 9th June 2014-15th June 2014</h2>
-
-		<div class="week_2">
-			<a href="/unit1_projects/my_wireframe"><img id="circle_image" src="http://dunedincameraclub.com/wp-content/uploads/2013/08/11-Kereru-fighting.jpg" width="120" height="120"></a>
-			<br>
-			<a href="/unit1_projects/my_wireframe">My Wireframe</a>
-			<p>Creating a wireframe for this index website</p>
-		</div>
+		<script src="myBlogs.js"></script>
 
 
-		<div class="week_2">
-			<a href="/unit1_projects/gps1.1"><img id="circle_image" src="http://www.birdoftheyear.org.nz/sites/birdoftheyear/files/styles/medium/public/Kereru_Craig%20McKenzie_200.jpg?itok=K8plsEDo" width="120" height="120"></a>
-			<br>
-			<a href="/unit1_projects/gps1.1">Pairing session pt. 1</a>
-			<p>First pairing session, with Steve;This is the direct result we had after coding together</p>
-		</div>
+	<aside>
+		<h2>About me</h2>
+		<p>Hey I'm Amelia, I have been living in Wellington for the past year and New Zealand for three, this page contains all of my blogs completed throughout EDA Phase Zero as part of the Kereru cohort. It is a work in progress, I hope it reflects a bit about my personality through the design but don't be suprised if one day it has a whole new (awesome!) look.</p>
+		<img id = "about_imgs" src="http://www.wellingtononaplate.com/site/uploads/2013/05/WellingtonSign02_WellingtonNZ_PHOTO_CaptureStudios.jpg-620x420.jpg" width = "250">
+		<img id="about_imgs" src="http://education.randmcnally.com/images/edpub/New_Zealand_Outline.png" width="200">
 
-		<div class="week_2">
-			<a href="/unit1_projects/pairing_session_steve"><img id="circle_image" src="http://www.southlandcommunitynursery.org.nz/uploads/images/Gallery/main-gallery/Native-Kereru-in-the-garden.jpg" width="120" height="120"></a>
-			<br>
-			<a href="/unit1_projects/pairing_session_steve">Pairing Session pt. 2</a>
-			<p>My version of the page based on our work together</p>
-		</div>
-
-		<div class="week_2">
-			<a href="/blog-posts/week2_technical"><img id="circle_image" src="https://farm5.staticflickr.com/4129/5043787502_8139f37f04_z.jpg" width="120" height="120"></a>
-			<br>
-			<a href="/blog-posts/week2_technical">Technical Blog</a>
-			<p>CSS Positioning</p>
-		</div>
-
-	</section>
-
-	<section class="section_1">
-
-		<h2>Week One: 2nd June 2014-8th June 2014</h2>
-			<div class="week_1">
-				<a href = "/unit1_projects/eda1.html"><img id="square_image" src="https://yy1.staticflickr.com/8447/8006912852_2c44f6591d_z.jpg" width="120" height="120"></a>
-				<br>
-				<a href="/unit1_projects/eda1.html">EDA 1:first webpage</a>
-				<p>Designed to introduce yourself...I didnt't read the brief properly!</p>
-			</div>
-
-			<div class="week_1">
-				<a href="/unit1_projects/eda2"><img id="square_image" src="http://www.wellingtonzoo.com/imageGallery/explore/animals/new_zealand_natives/kereru/lrg/Kereru.JPG" width="120" height="120"></a>
-				<br>
-				<a href="/unit1_projects/eda2">EDA 2:second webpage</a>
-				<p>Teaching something:How to make haloumi cheese yum yum!</p>
-			</div>
-
-			<div class="week_1">
-				<a href="/blog-posts/week1_technical"><img id="square_image" src="https://farm1.staticflickr.com/138/350345965_7b7584307a.jpg" width="120" height="120"></a>
-				<br>
-				<a href="/blog-posts/week1_technical">My first ever blog!</a>
-				<p>Technical blog:considering webpage design<p>
-			</div>
-
-			<div class="week_1">
-				<a href="/blog-posts/week1_cultural"><img id="square_image" src="https://farm4.staticflickr.com/3263/5709762788_5b9dbfb728.jpg" width="120" height="120"></a>
-				<br>
-				<a href="/blog-posts/week1_cultural">Getting into this blogging thing!</a>
-				<p>Cultural blog:first impressions of EDA</p>
-			</div>
-
-			<div class="week_1">
-				<a href="/unit1_projects/wireframe_sites"><img id="square_image" src="http://www.bjornolesen.com/userfiles/BLO_7212(1).jpg" width="120" height="120"></a>
-				<br>
-				<a href="/unit1_projects/wireframe_sites">Wireframing<a>
-				<p>First time giving wireframing a go!</p>
-			</div>
-	</section>
+	</aside>
 
 	<footer>
 		<p>Watch this site get bigger and better as my skills do!<br>Created by Amelia Laundy<br>
 			<div align='center'><img src='http://www.hit-counter-html-code.com/c.php?d=9&id=140477&s=55' border='0'></div>
 		</p><br>
-		<a class="footer_links" href="/blog-posts/blogs_index">My Blog Page</a>
-		<a class="footer_links" href="https://twitter.com/amelialaundy">My Twitter Page</a>
+		<a class="footer_links" href="mailto:amelialaundy@gmail.com">Email</a>
+		
 		<a class="footer_links" href="http://devacademy.co.nz/">EDA</a>
+
 	</footer>
+</div>
 </body>
 </html>
