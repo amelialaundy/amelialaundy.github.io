@@ -8,11 +8,19 @@ myFunction([
 	"url": "week"
 	},
 	{
-	"display": "Cultural blog: </p>",
+	"display": "Cultural blog:",
 	"url": "/blog-posts/week8-cultural"
 	},
 	{
-	"display": "Dealing with conflict</p>",
+	"display": "Dealing with conflict",
+	"url": "explanation"
+	},
+	{
+	"display": "Technical blog:",
+	"url": "/blog-posts/week8_technical"
+	},
+	{
+	"display": "What is recursion?",
 	"url": "explanation"
 	},
 	{
@@ -20,11 +28,11 @@ myFunction([
 	"url": "week"
 	},
 	{
-	"display": "Cultural blog: </p>",
+	"display": "Cultural blog: ",
 	"url": "/blog-posts/week7_cultural"
 	},
 	{
-	"display": "Exploring Your Values</p>",
+	"display": "Exploring Your Values",
 	"url": "explanation"
 	},
 	{

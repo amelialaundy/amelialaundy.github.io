@@ -1,0 +1,116 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="/unit1_projects/stylesheets/reset.css">
+	<link rel="stylesheet" type-"text/css" href= "/unit1_projects/stylesheets/index_stylesheet.css">
+	<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+</head>
+	<body>
+		<header>
+		<ul id="menu">
+    	
+    		<li><a href="#"><img id="header_image" src="https://farm3.staticflickr.com/2907/14550824713_e6e23d8170_q.jpg" width ="70" height ="70"></a>
+				<ul class="sub-menu">
+            		<li> <a href="#"><img src="https://farm3.staticflickr.com/2902/14695182082_87eb584788_q.jpg">
+            			<br>
+						<p>Former: waitress | barista | traveller | one-time-bee-keeper
+						<br>Currently: | EDA student studying to be a developer | 
+						<br>Future: | watch this space | </p>
+            			</a>
+            		</li>
+            	</ul>
+    		</li>
+    		<!-- <img id="header_image" src="http://www.bjornolesen.com/userfiles/BLO_7212(1).jpg" width="100" height="100"> -->
+   		</ul>
+   		
+		<h1>Amelia Laundy</h1>
+		<div id="twitter"><a  href="https://twitter.com/amelialaundy" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @amelialaundy</a>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></div>
+		<div id="twitter"><a href ="http://amelialaundy.github.io/"><button type="button">Home</button></a></div>
+	</header>
+
+		
+
+		<div id="main">
+
+	<section id="blogs"><h2>Blogs</h2></section>
+
+		<script>
+			function myFunction(arr) {
+    		var out = "";
+		    var i;
+		    for(i = 0; i<arr.length; i++) {
+		        if (arr[i].url == "title") {
+         		out += '<h2>' + arr[i].display + '</h2>';
+         		} if (arr[i].url == "week") {
+         		out += '<p id="week">' + arr[i].display + '</p>';
+    			}  if (arr[i].url == "explanation") {
+    			out += '<p>' + arr[i].display + '</p>';
+    			} if (arr[i].url !== "explanation" && arr[i].url !== "title" && arr[i].url !== "week") {
+       			out += '<li><a href="' + arr[i].url + '">' + 
+    			arr[i].display + '</a></li>';
+    			}
+		    }
+		    document.getElementById("blogs").innerHTML = out;
+			}
+		</script>
+
+		<script src="/other_indexes/myBlogs.js"></script>
+
+
+	<aside>
+		<section class="sections">
+			<h2>Recursion</h2>
+			<br>
+			<h2 class="topic_header">What does recursion mean?</h2>
+			<p>The word recursion comes from the word recur, (to repeat, occur again, happen again). In relation to programming it refers to steps in a procedure that invoke the procedure itself. This can often end with an infinite loop unless there is an instruction to break if something happens, for example an if / else statement or a when statement.</p>
+
+			<article>
+				<h2 class="topic_header">Example</h2>
+				<img class="blog_images" src="https://farm4.staticflickr.com/3923/14773638533_5167eaacf8.jpg" alt="infinite x">
+				<p>This will print “the value of x is 1”, “the value of x is 2” and so on infinitely as x will always be bigger than 0, and will also crash the program!</p>
+				<img class="blog_images" src="https://farm4.staticflickr.com/3890/14753448832_d7fc59331b.jpg" alt="x less than ten">
+				<p>This will print “the value of x is 1”, “the value of x is 2” and so on until x = 10 and so the last value of x will be 9.</p>
+				<p>In the real world it is a little less easy to give examples of recursive instructions, one might be with cooking pasta; start off with pasta = uncooked, check the pasta every ten minutes, if pasta = uncooked follow the instructions UNTIL pasta = cooked.</p>
+			</article>
+
+			<article>
+			<h2 class="topic_header">Introducing recursion with Fibonacci</h2>
+			<p>After trying the following Fibonacci challenge in Ruby this week:</p>
+			<p>"There are some interesting mathematical sequences that appear in nature. The Fibonacci sequence is one of them. For this challenge, you will write a method to check if a number is part of that sequence."</p>
+			<p>I researched different ways of doing this and found an interesting article on using Fibonacci sequences to explain the theory of recursion.</p>
+			<p>Look at the following example:</p>
+			<img class="blog_images" src="https://farm3.staticflickr.com/2897/14750679641_3418124597.jpg" alt="fibonacci example">
+			<p>The method nth_fibonacci_number takes a number n and will return the value of the nth number in the fibonacci sequence. In the method it self references the method, thus creating recursion where the method runs within the method.</p>
+			<p>Sounds like we’re verging on inception right about now!</p>
+			<img class="blog_images" src="https://farm3.staticflickr.com/2897/14750679641_3418124597.jpg" alt="fibonacci example">
+			https://farm4.staticflickr.com/3922/14750605631_23b186a1f1.jpg
+			<img class="blog_images" src="https://farm4.staticflickr.com/3922/14750605631_23b186a1f1.jpg" alt="google joke
+			<p></p>
+			</article>
+
+			<article>
+				<h2 class="topic_header"><!--header for third section--></h2>
+				<img class="blog_images" src="" alt=""><!--insert images-->
+				<p></p>
+				<p></p>
+				<p></p>
+			</article>
+		</section>
+		
+
+	</aside>
+
+	<footer>
+		<p>Watch this site get bigger and better as my skills do!<br>Created by Amelia Laundy<br>
+			<div align='center'><img src='http://www.hit-counter-html-code.com/c.php?d=9&id=140477&s=55' border='0'></div>
+		</p><br>
+		<a class="footer_links" href="mailto:amelialaundy@gmail.com"><button type="button">Email</button></a>
+		
+		<a class="footer_links" href="http://devacademy.co.nz/"><button type="button">EDA</button></a>
+
+		<a class="footer_links" href ="https://twitter.com/amelialaundy"><button type="button">Twitter</button></a>
+
+	</footer>
+	</div>
+	</body>
+</html>
