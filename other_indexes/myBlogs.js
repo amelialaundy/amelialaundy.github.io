@@ -9,7 +9,7 @@ myFunction([
 	},
 	{
 	"display": "Cultural blog:",
-	"url": "/blog-posts/week8-cultural"
+	"url": "/blog-posts/week9_cultural"
 	},
 	{
 	"display": "Asking good questions",
