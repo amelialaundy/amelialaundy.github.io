@@ -4,6 +4,18 @@ myFunction([
 	"url": "title"
 	},
 	{
+	"display": "Week Nine:22nd July-3rd August 2014",
+	"url": "week"
+	},
+	{
+	"display": "Cultural blog:",
+	"url": "/blog-posts/week8-cultural"
+	},
+	{
+	"display": "Asking good questions",
+	"url": "explanation"
+	},
+	{
 	"display": "Week Eight:21st July-27th July 2014",
 	"url": "week"
 	},

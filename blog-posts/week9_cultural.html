@@ -1,0 +1,116 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="/unit1_projects/stylesheets/reset.css">
+	<link rel="stylesheet" type-"text/css" href= "/unit1_projects/stylesheets/index_stylesheet.css">
+	<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+</head>
+	<body>
+		<header>
+		<ul id="menu">
+    	
+    		<li><a href="#"><img id="header_image" src="https://farm3.staticflickr.com/2907/14550824713_e6e23d8170_q.jpg" width ="70" height ="70"></a>
+				<ul class="sub-menu">
+            		<li> <a href="#"><img src="https://farm3.staticflickr.com/2902/14695182082_87eb584788_q.jpg">
+            			<br>
+						<p>Former: waitress | barista | traveller | one-time-bee-keeper
+						<br>Currently: | EDA student studying to be a developer | 
+						<br>Future: | watch this space | </p>
+            			</a>
+            		</li>
+            	</ul>
+    		</li>
+    		<!-- <img id="header_image" src="http://www.bjornolesen.com/userfiles/BLO_7212(1).jpg" width="100" height="100"> -->
+   		</ul>
+   		
+		<h1>Amelia Laundy</h1>
+		<div id="twitter"><a  href="https://twitter.com/amelialaundy" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @amelialaundy</a>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></div>
+		<div id="twitter"><a href ="http://amelialaundy.github.io/"><button type="button">Home</button></a></div>
+	</header>
+
+		
+
+		<div id="main">
+
+	<section id="blogs"><h2>Blogs</h2></section>
+
+		<script>
+			function myFunction(arr) {
+    		var out = "";
+		    var i;
+		    for(i = 0; i<arr.length; i++) {
+		        if (arr[i].url == "title") {
+         		out += '<h2>' + arr[i].display + '</h2>';
+         		} if (arr[i].url == "week") {
+         		out += '<p id="week">' + arr[i].display + '</p>';
+    			}  if (arr[i].url == "explanation") {
+    			out += '<p>' + arr[i].display + '</p>';
+    			} if (arr[i].url !== "explanation" && arr[i].url !== "title" && arr[i].url !== "week") {
+       			out += '<li><a href="' + arr[i].url + '">' + 
+    			arr[i].display + '</a></li>';
+    			}
+		    }
+		    document.getElementById("blogs").innerHTML = out;
+			}
+		</script>
+
+		<script src="/other_indexes/myBlogs.js"></script>
+
+
+	<aside>
+		<section class="sections">
+			<h2>How do you ask a good question?</h2>
+			<br>
+			<p>Asking good questions in written form and in person can be very different; written questions may include those on a forum (such as stack overflow or reddit), to a community (such as a google+ community) or they could be into a search engine (aka GOOGLE). Whereas asking questions directly to another person will require you to already know some minimum about that person like what their expertise is.</p>
+
+			<article>
+				<h2 class="topic_header"><!--header for first section--></h2>
+				<img class="blog_images" src="http://cdn-media-1.lifehack.org/wp-content/files/2013/06/A-wise-man-can-learn-more-from-a-foolish-question-than-a-fool-can-learn-from-a-wise-answer..jpg" alt=""><!--insert images-->
+				<p>When asking questions in general:
+					<ul>
+						<li>start of with “why (…does x happen)?”, then move onto “what if (…x)” and then “how (…does x do this)”</li>
+						<li>remember that even if you might worry that asking a simple why question will make you look stupid or naive, it is the starting point for understanding most anything</li>
+					</ul>
+					</p>
+				<p>To receive the best answers on a forum such things to consider are:
+					<ul>
+						<li>making sure the question is to the point whilst including the directly relevant information, if someone is skimming through questions they are more likely to respond if they can read the content in the question link rather than having to read the description after clicking the link</li>
+						<li>giving an example of what it is you are asking, for dev questions you might include a portion of code that relates to the question</li>
+						<li>checking to see if other same or similar questions have already been answered, this saves yours and everyone else’s time if the answer already exists elsewhere in a forum</li>
+					</ul>
+				</p>
+			</article>
+
+			<article>
+			<p>Asking questions must begin with asserting what it is you are wanting to find out. If you want data rather than opinion ask for data, not for ‘what do you think about…?’  open ended questions are also a better bet than ones resulting in yes or no, why/what/where/when/how/why all will start open ended questions and let the questionee provide more information.</p>
+			<p>Follow up questions are also great, questioning them on their answer will result in clearer facts (if thats what your after) or they might expand further on their opinion, even with open ended questions people may only answer the bare minimum so to get around this another open ended question asking directly about a comment to the first question may help.</p>
+			<p>Mainly I understand that to ask a question is to admit you don’t know something about something, this is not a bad thing at all and allows you to further knowledge where someone else may be too scared to.</p>
+			<p>Personally I love asking questions and always have, although sometimes I feel maybe I do to the extent it becomes annoying, but this has never stopped me! I was always the kid in maths asking why this and why that even at lunch time. I would like to concentrate more on formulating some of my questions before letting them rush out of my brain and into existence, perhaps focusing more on exactly why I’m asking the question and looking in various places for the answer.</p>
+			</article>
+
+			<article>
+				<h2 class="topic_header"><!--header for third section--></h2>
+				<img class="blog_images" src="" alt=""><!--insert images-->
+				<p></p>
+				<p></p>
+				<p></p>
+			</article>
+		</section>
+		
+
+	</aside>
+
+	<footer>
+		<p>Watch this site get bigger and better as my skills do!<br>Created by Amelia Laundy<br>
+			<div align='center'><img src='http://www.hit-counter-html-code.com/c.php?d=9&id=140477&s=55' border='0'></div>
+		</p><br>
+		<a class="footer_links" href="mailto:amelialaundy@gmail.com"><button type="button">Email</button></a>
+		
+		<a class="footer_links" href="http://devacademy.co.nz/"><button type="button">EDA</button></a>
+
+		<a class="footer_links" href ="https://twitter.com/amelialaundy"><button type="button">Twitter</button></a>
+
+	</footer>
+	</div>
+	</body>
+</html>
